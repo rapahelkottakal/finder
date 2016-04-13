@@ -2,6 +2,7 @@ import React from 'react';
 
 import 'normalize.css/normalize.css';
 
+import Overlay from './overlay';
 import Option from './option';
 import Question from './question';
 
@@ -11,7 +12,8 @@ export default class Finder extends React.Component {
 		super();
 
 		this.state = {
-			questionNo: 0
+			questionNo: 0,
+			overlay: true
 		}
 	}
 
@@ -48,7 +50,7 @@ export default class Finder extends React.Component {
 
 	createOptions() {
 
-		let optionsArray = this.props.data[this.state.questionNo].options;
+		let optionsArray = this.props.data.qNa[this.state.questionNo].options;
 
 		// console.log(optionsArray.length);
 
@@ -68,9 +70,13 @@ export default class Finder extends React.Component {
 
 	}
 
+	openOverlay() {
+		this.setState({ overlay: false });
+	}
+
 	render() {
 
-		let question = this.props.data[this.state.questionNo].question.text;
+		let question = this.props.data.qNa[this.state.questionNo].question.text;
 
 		return(
 			<div style={this.getContainerStyles()}>
@@ -80,6 +86,12 @@ export default class Finder extends React.Component {
 					{ this.createOptions() }
 					
 				</div>
+				<Overlay
+					onScreen={this.state.overlay}
+					openOverlay={this.openOverlay.bind(this)}
+					bgColor={this.props.data.overlay.bgColor}
+					bgImage={this.props.data.overlay.img}
+				/>
 			</div>
 		);
 	}
