@@ -27,7 +27,7 @@ export default class Overlay extends React.Component {
 
 			Object.assign(style, animate.transition('0.75s'));
 
-			Object.assign(style, animate.transform('translateX('+ window.innerHeight +'px)'));
+			Object.assign(style, animate.transform('translateX(-'+ window.innerWidth +'px)'));
 
 		}
 
