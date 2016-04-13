@@ -23,7 +23,7 @@ export default class Overlay extends React.Component {
 
 		Object.assign(style, animate.transition('0.5s'));
 
-		if (!this.props.onScreen) {
+		if (!this.props.loading) {
 
 			Object.assign(style, animate.transition('0.75s'));
 
@@ -35,7 +35,9 @@ export default class Overlay extends React.Component {
 
 	render() {
 		return (
-			<div className="overlay" style={this.getStyles()} onClick={this.props.openOverlay} />
+			<div className="overlay" style={this.getStyles()}>
+				<p>Loading {this.props.loadedImgs} /{this.props.totalImgs}</p>
+			</div>
 			)
 	}
 }

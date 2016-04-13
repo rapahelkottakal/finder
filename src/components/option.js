@@ -1,15 +1,42 @@
 import React from 'react';
 import ImageLoader from 'react-imageloader';
 
+import animate from '../helpers/animate';
+
+
 export default class Option extends React.Component {
+
+	getStyles() {
+		let styles = {
+
+		}
+
+		Object.assign(styles, animate.transition('0.5s'));
+
+		if (this.props.loading) {
+			Object.assign(styles, animate.transform('translateY('+ window.innerHeight +'px)'));
+		}
+
+		return styles;
+	}
+
+	clickHandler() {
+		setTimeout(()=>{
+			this.props.clickit();
+			window.scrollTo(0, 0);
+		}, 750);
+		this.props.closeOverlay();
+	}
+
 
 	render() {
 		return(
-			<div className="option-text" onClick={this.props.clickit}>
+			<div className="option-text" onClick={this.clickHandler.bind(this)} style={this.getStyles()}>
 				<ImageLoader
 					src={this.props.image}
 					imgProps={{ style: {maxWidth: '100%'} }}
-					wrapper={React.DOM.div}>	
+					wrapper={React.DOM.div}
+					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
 				<p>{this.props.text}</p>

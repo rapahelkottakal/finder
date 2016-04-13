@@ -13,7 +13,8 @@ export default class Finder extends React.Component {
 
 		this.state = {
 			questionNo: 0,
-			overlay: true
+			loading: true,
+			loadedImgs: 0
 		}
 	}
 
@@ -48,16 +49,41 @@ export default class Finder extends React.Component {
 		}
 	}
 
+	imageLoaded() {
+		this.setState({
+			loadedImgs: this.state.loadedImgs + 1
+		});
+
+		if (this.props.data.qNa[this.state.questionNo].options.length == this.state.loadedImgs ) {
+
+			this.setState({
+				loading: false
+			});
+
+			setTimeout(() => {
+				this.setState({
+					loadedImgs: 0
+				});
+			}, 750);
+
+		}
+	}
+
 	createOptions() {
 
 		let optionsArray = this.props.data.qNa[this.state.questionNo].options;
 
-		// console.log(optionsArray.length);
-
 		let options = optionsArray.map((option,i) => {
 			return (
-				<Option
+				<Option					
+					imageLoaded={this.imageLoaded.bind(this)}
 					clickit = {this.updateQuestionNo.bind(this)}
+					
+					loading={this.state.loading}
+
+					openOverlay={this.openOverlay.bind(this)}
+					closeOverlay={this.closeOverlay.bind(this)}
+
 					key = {i}
 					image={option.image}
 					text="test1"
@@ -71,26 +97,36 @@ export default class Finder extends React.Component {
 	}
 
 	openOverlay() {
-		this.setState({ overlay: false });
+		this.setState({ loading: false });
+
+	}
+
+	closeOverlay() {
+		this.setState({ loading: true });
+		
 	}
 
 	render() {
+
+		// window.scrollTo(0, 0);
 
 		let question = this.props.data.qNa[this.state.questionNo].question.text;
 
 		return(
 			<div style={this.getContainerStyles()}>
 				<div style={this.getWrapperStyles()}>
-					<Question text={question} />
+					<Question text={question} loading={this.state.loading} />
 					
 					{ this.createOptions() }
 					
 				</div>
+
 				<Overlay
-					onScreen={this.state.overlay}
-					openOverlay={this.openOverlay.bind(this)}
+					totalImgs={this.props.data.qNa[this.state.questionNo].options.length}
+					loading={this.state.loading}
 					bgColor={this.props.data.overlay.bgColor}
 					bgImage={this.props.data.overlay.img}
+					loadedImgs={this.state.loadedImgs}
 				/>
 			</div>
 		);
