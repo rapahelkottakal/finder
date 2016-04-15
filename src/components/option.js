@@ -20,6 +20,22 @@ export default class Option extends React.Component {
 		return styles;
 	}
 
+	getTextStyles() {
+		return {
+			textAlign: 'center',
+			fontSize: 30,
+			color: 'white'
+		}
+	}
+
+	getText() {
+
+		if (this.props.text) {
+
+			return (<div style={this.getTextStyles()}>{this.props.text}</div>);
+		}
+	}
+
 	clickHandler() {
 		setTimeout(()=>{
 			this.props.clickit();
@@ -30,6 +46,8 @@ export default class Option extends React.Component {
 
 
 	render() {
+
+
 		return(
 			<div className="option-text" onClick={this.clickHandler.bind(this)} style={this.getStyles()}>
 				<ImageLoader
@@ -39,7 +57,7 @@ export default class Option extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
-				<p>{this.props.text}</p>
+				{this.getText()}
 			</div>
 		);
 	}

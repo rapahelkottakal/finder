@@ -8,13 +8,18 @@ import Question from './question';
 
 export default class Finder extends React.Component {
 
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
+
+		console.log(this);
 
 		this.state = {
+			totalQuestions: props.data.qNa.length,
 			questionNo: 0,
 			loading: true,
-			loadedImgs: 0
+			loadedImgs: 0,
+			resultPage: false,
+
 		}
 	}
 
@@ -86,7 +91,7 @@ export default class Finder extends React.Component {
 
 					key = {i}
 					image={option.image}
-					text="test1"
+					text={option.text}
 				/>
 			);
 		});
