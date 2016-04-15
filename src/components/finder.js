@@ -5,6 +5,7 @@ import 'normalize.css/normalize.css';
 import Overlay from './overlay';
 import Option from './option';
 import Question from './question';
+import ResultPage from './result-page';
 
 export default class Finder extends React.Component {
 
@@ -15,7 +16,7 @@ export default class Finder extends React.Component {
 
 		this.state = {
 			totalQuestions: props.data.qNa.length,
-			questionNo: 0,
+			questionNo: 5,
 			loading: true,
 			loadedImgs: 0,
 			resultPage: false,
@@ -23,10 +24,63 @@ export default class Finder extends React.Component {
 		}
 	}
 
-	updateQuestionNo() {
+	imageLoaded() {
 		this.setState({
-			questionNo: this.state.questionNo + 1
+			loadedImgs: this.state.loadedImgs + 1
 		});
+
+		if (this.props.data.qNa[this.state.questionNo].options.length == this.state.loadedImgs ) {
+
+			this.setState({
+				loading: false
+			});
+
+			setTimeout(() => {
+				this.setState({
+					loadedImgs: 0
+				});
+			}, 750);
+
+		} else if( this.state.resultPage && this.state.loadedImgs == 1 ) {
+			this.setState({
+				loading: false
+			});
+		}
+	}
+
+	restart() {
+		this.setState({ resultPage: false, questionNo: 0 });
+	}
+
+	openOverlay() {
+		this.setState({ loading: false });
+
+	}
+
+	closeOverlay() {
+		this.setState({ loading: true });
+		
+	}
+
+	updateQuestionNo() {
+
+		console.log(this.state.totalQuestions, this.state.questionNo);
+
+		if (this.state.totalQuestions > this.state.questionNo + 1 ) {
+
+			this.setState({
+				questionNo: this.state.questionNo + 1
+			});
+			
+		} else {
+			this.setState({
+				resultPage: true
+			});
+			console.log(this.state);
+			
+		}
+
+
 	}
 
 	getContainerStyles() {
@@ -54,25 +108,6 @@ export default class Finder extends React.Component {
 		}
 	}
 
-	imageLoaded() {
-		this.setState({
-			loadedImgs: this.state.loadedImgs + 1
-		});
-
-		if (this.props.data.qNa[this.state.questionNo].options.length == this.state.loadedImgs ) {
-
-			this.setState({
-				loading: false
-			});
-
-			setTimeout(() => {
-				this.setState({
-					loadedImgs: 0
-				});
-			}, 750);
-
-		}
-	}
 
 	createOptions() {
 
@@ -101,39 +136,59 @@ export default class Finder extends React.Component {
 
 	}
 
-	openOverlay() {
-		this.setState({ loading: false });
-
-	}
-
-	closeOverlay() {
-		this.setState({ loading: true });
-		
-	}
-
 	render() {
 
 		// window.scrollTo(0, 0);
 
-		let question = this.props.data.qNa[this.state.questionNo].question.text;
+		if(this.state.resultPage) {
 
-		return(
-			<div style={this.getContainerStyles()}>
-				<div style={this.getWrapperStyles()}>
-					<Question text={question} loading={this.state.loading} />
-					
-					{ this.createOptions() }
-					
+			return(
+				<div style={this.getContainerStyles()}>
+
+					<ResultPage
+						imageLoaded={this.imageLoaded.bind(this)}
+						
+						loading={this.state.loading}
+
+						restart={this.restart.bind(this)}
+
+						openOverlay={this.openOverlay.bind(this)}
+						closeOverlay={this.closeOverlay.bind(this)}
+						text="some text"
+					/>
+
+					<Overlay
+						totalImgs={1}
+						loading={this.state.loading}
+						bgColor={this.props.data.overlay.bgColor}
+						bgImage={this.props.data.overlay.img}
+						loadedImgs={this.state.loadedImgs}
+					/>
 				</div>
+				);
 
-				<Overlay
-					totalImgs={this.props.data.qNa[this.state.questionNo].options.length}
-					loading={this.state.loading}
-					bgColor={this.props.data.overlay.bgColor}
-					bgImage={this.props.data.overlay.img}
-					loadedImgs={this.state.loadedImgs}
-				/>
-			</div>
-		);
+		} else {
+
+			let question = this.props.data.qNa[this.state.questionNo].question.text;
+
+			return(
+				<div style={this.getContainerStyles()}>
+					<div style={this.getWrapperStyles()}>
+						<Question text={question} loading={this.state.loading} />
+						
+						{ this.createOptions() }
+						
+					</div>
+
+					<Overlay
+						totalImgs={this.props.data.qNa[this.state.questionNo].options.length}
+						loading={this.state.loading}
+						bgColor={this.props.data.overlay.bgColor}
+						bgImage={this.props.data.overlay.img}
+						loadedImgs={this.state.loadedImgs}
+					/>
+				</div>
+			);
+		}
 	}
 }
