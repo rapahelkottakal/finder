@@ -2,7 +2,7 @@ import React from 'react';
 
 import animate from '../helpers/animate';
 
-export default class Option extends React.Component {
+export default class Question extends React.Component {
 
 	constructor() {
 		super();

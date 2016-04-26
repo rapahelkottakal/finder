@@ -38,7 +38,7 @@ export default class Option extends React.Component {
 
 	clickHandler() {
 		setTimeout(()=>{
-			this.props.clickit();
+			this.props.clickit(this.props.result, this.props.weight);
 			window.scrollTo(0, 0);
 		}, 750);
 		this.props.closeOverlay();

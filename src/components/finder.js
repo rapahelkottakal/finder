@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 
 import 'normalize.css/normalize.css';
 
@@ -11,17 +12,22 @@ export default class Finder extends React.Component {
 
 	constructor(props) {
 		super(props);
+		
+		let resultOpts = {}
 
-		console.log(this);
+		_.forEach(this.props.data.results, function(obj,key) {
+			resultOpts[key] = 0;
+		});
 
 		this.state = {
 			totalQuestions: props.data.qNa.length,
-			questionNo: 5,
+			questionNo: 0,
 			loading: true,
 			loadedImgs: 0,
 			resultPage: false,
-
+			resultOpts
 		}
+
 	}
 
 	imageLoaded() {
@@ -62,21 +68,24 @@ export default class Finder extends React.Component {
 		
 	}
 
-	updateQuestionNo() {
+	updateQuestionNo(result, weight) {
 
-		console.log(this.state.totalQuestions, this.state.questionNo);
 
 		if (this.state.totalQuestions > this.state.questionNo + 1 ) {
 
+			let newResult = this.state.resultOpts;
+
+			newResult[result] = newResult[result] + weight;
+
 			this.setState({
-				questionNo: this.state.questionNo + 1
+				questionNo: this.state.questionNo + 1,
+				resultOpts: newResult
 			});
 			
 		} else {
 			this.setState({
 				resultPage: true
 			});
-			console.log(this.state);
 			
 		}
 
@@ -125,8 +134,10 @@ export default class Finder extends React.Component {
 					closeOverlay={this.closeOverlay.bind(this)}
 
 					key = {i}
+					result={option.key}
 					image={option.image}
 					text={option.text}
+					weight={this.props.data.qNa[this.state.questionNo].question.weight}
 				/>
 			);
 		});
@@ -142,6 +153,12 @@ export default class Finder extends React.Component {
 
 		if(this.state.resultPage) {
 
+			let resultPoints = _.values(this.state.resultOpts);
+
+			let maxResultKey = _.findKey( this.state.resultOpts, function(result) {
+				return result == _.max(resultPoints)
+			});
+
 			return(
 				<div style={this.getContainerStyles()}>
 
@@ -154,7 +171,10 @@ export default class Finder extends React.Component {
 
 						openOverlay={this.openOverlay.bind(this)}
 						closeOverlay={this.closeOverlay.bind(this)}
-						text="some text"
+
+						link={this.props.data.results[maxResultKey].link}
+						image={this.props.data.results[maxResultKey].image}
+						text={this.props.data.results[maxResultKey].text}
 					/>
 
 					<Overlay
