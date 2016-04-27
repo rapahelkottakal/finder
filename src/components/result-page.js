@@ -18,7 +18,7 @@ export default class ResultPage extends React.Component {
 		return{
 			backgroundColor: '#F2F1F6',
 			padding: '4% 12% 20%',
-			lineHeight: '1.4',
+			lineHeight: '1.5',
 			marginTop: '-4px'
 		}
 	}
