@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 
 import animate from '../helpers/animate';
 
@@ -22,13 +23,13 @@ export default class Overlay extends React.Component {
 			zIndex: '999'
 		};
 
-		Object.assign(style, animate.transition('0.5s'));
+		_.assignIn(style, animate.transition('0.5s'));
 
 		if (!this.props.loading) {
 
-			Object.assign(style, animate.transition('0.75s'));
+			_.assignIn(style, animate.transition('0.75s'));
 
-			Object.assign(style, animate.transform('translateX(-'+ window.innerWidth +'px)'));
+			_.assignIn(style, animate.transform('translateX(-'+ window.innerWidth +'px)'));
 
 		}
 

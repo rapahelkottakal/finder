@@ -95,7 +95,7 @@ export default class Finder extends React.Component {
 	getContainerStyles() {
 		return {
 			minHeight: window.innerHeight,
-		    backgroundImage: 'url("http://assets.myntassets.com/v1458135561/Lookgood/levis-quiz-background.jpg")',
+		    backgroundImage: 'url("http://assets.myntassets.com/v1461756655/Lookgood/2016/background.jpg")',
 			backgroundColor: 'rgb(58, 169, 219)',
 			position: 'absolute',
 			top: 0,
@@ -138,6 +138,7 @@ export default class Finder extends React.Component {
 					image={option.image}
 					text={option.text}
 					weight={this.props.data.qNa[this.state.questionNo].question.weight}
+					plain={this.props.data.qNa[this.state.questionNo].question.plain}
 				/>
 			);
 		});

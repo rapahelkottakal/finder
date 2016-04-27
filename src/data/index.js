@@ -16,8 +16,8 @@ export default {
 			options: [
 				{
 					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458220020/levis-quiz-men-q1option1-min_zkvo7c.png',
-					text: 'Option'
+					image: 'http://assets.myntassets.com/v1461755590/Lookgood/test-1-min.jpg',
+					text: 'Shift dress'
 				},
 				{
 					key: 'motion',
@@ -195,33 +195,29 @@ export default {
 		{
 			question: {
 				text: 'What best sums up your body type?',
-				weight: 4.75
+				weight: 4.75,
+				plain: true
 			},
 			options: [
 				{
 					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458292893/Lookgood/quiz-q6-average-built.png',
-					text: 'Option'
+					image: 'http://assets.myntassets.com/v1458292893/Lookgood/quiz-q6-average-built.png'
 				},
 				{
 					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458292893/Lookgood/quiz-q6-lean.png',
-					text: 'Option'
+					image: 'http://assets.myntassets.com/v1458292893/Lookgood/quiz-q6-lean.png'
 				},
 				{
 					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458292911/Lookgood/quiz-q6-fit-fot-your-age.png',
-					text: 'Option'
+					image: 'http://assets.myntassets.com/v1458292911/Lookgood/quiz-q6-fit-fot-your-age.png'
 				},
 				{
 					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458292945/Lookgood/quiz-q6-well-built.png',
-					text: 'Option'
+					image: 'http://assets.myntassets.com/v1458292945/Lookgood/quiz-q6-well-built.png'
 				},
 				{
 					key: 'original',
-					image: 'http://assets.myntassets.com/v1458293001/Lookgood/quiz-q6-plump.png',
-					text: 'Option'
+					image: 'http://assets.myntassets.com/v1458293001/Lookgood/quiz-q6-plump.png'
 				},
 
 			]

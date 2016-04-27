@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageLoader from 'react-imageloader';
+import _ from 'lodash';
 
 import animate from '../helpers/animate';
 
@@ -8,13 +9,15 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-
+			borderBottom: '1px solid lightgray',
+			marginBottom: 15,
+			paddingBottom: 15
 		}
 
-		Object.assign(styles, animate.transition('0.5s'));
+		_.assignIn(styles, animate.transition('0.5s'));
 
 		if (this.props.loading) {
-			Object.assign(styles, animate.transform('translateY('+ window.innerHeight +'px)'));
+			_.assignIn(styles, animate.transform('translateY('+ window.innerHeight +'px)'));
 		}
 
 		return styles;
@@ -46,13 +49,21 @@ export default class Option extends React.Component {
 
 
 	render() {
+		let imgStyle = {
+			maxWidth: '100%',
+			marginBottom: 10
+		}
+
+		if(!this.props.plain) {
+			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+		}
 
 
 		return(
 			<div className="option-text" onClick={this.clickHandler.bind(this)} style={this.getStyles()}>
 				<ImageLoader
 					src={this.props.image}
-					imgProps={{ style: {maxWidth: '100%'} }}
+					imgProps={{ style: imgStyle }}
 					wrapper={React.DOM.div}
 					onLoad={this.props.imageLoaded}>
 					Image load failed!

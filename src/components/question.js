@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 
 import animate from '../helpers/animate';
 
@@ -31,10 +32,10 @@ export default class Question extends React.Component {
 		    color: 'white'
 		};
 		
-		Object.assign(styles, animate.transition('0.5s'));
+		_.assignIn(styles, animate.transition('0.5s'));
 
 		if (this.props.loading) {
-			Object.assign(styles, animate.transform('translateY(-'+ this.state.height +'px)'));
+			_.assignIn(styles, animate.transform('translateY(-'+ this.state.height +'px)'));
 		}
 
 		return styles;
