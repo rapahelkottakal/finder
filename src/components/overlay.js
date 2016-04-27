@@ -19,7 +19,7 @@ export default class Overlay extends React.Component {
 			backgroundSize: '100px',
 			backgroundPosition: '50% 50%',
 			backgroundRepeat: 'no-repeat',
-			zIndex: '-2'
+			zIndex: '999'
 		};
 
 		Object.assign(style, animate.transition('0.5s'));
