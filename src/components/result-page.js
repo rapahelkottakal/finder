@@ -14,6 +14,53 @@ export default class ResultPage extends React.Component {
 		this.props.closeOverlay();
 	}
 
+	resultTextStyle(){
+		return{
+			backgroundColor: '#F2F1F6',
+			padding: '4% 12% 20%',
+			lineHeight: '1.5',
+			marginTop: '-4px'
+		}
+	}
+
+	shopButtonStyle(){
+		return{
+			textAlign: 'center',
+			backgroundColor: '#7E7DC3',
+			padding: '2% 4%',
+			margin: '0 auto',
+			textDecoration: 'none',
+			color: '#fff',
+			fontSize: '20px',
+			fontFamily: 'sans-serif',
+			position: 'absolute',
+			bottom: '4%',
+			left: '12%',
+			borderRadius: '5px',
+			fontWeight: '600',
+			cursor: 'pointer'
+		}	
+	}
+
+	resetQuizStyle(){
+		return{
+			textAlign: 'center',
+			backgroundColor: '#7E7DC3',
+			padding: '2% 4%',
+			margin: '0 auto',
+			textDecoration: 'none',
+			color: '#fff',
+			fontSize: '20px',
+			fontFamily: 'sans-serif',
+			position: 'absolute',
+			bottom: '4%',
+			right: '12%',
+			borderRadius: '5px',
+			fontWeight: '600',
+			cursor: 'pointer'
+		}
+	}
+
 
 	render() {
 
@@ -26,9 +73,9 @@ export default class ResultPage extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
-				{this.props.text}
-				<a href={this.props.link}>Shop now</a>
-				<div onClick={this.clickHandler.bind(this)}>Reset Quiz</div>
+				<div style= {this.resultTextStyle()}> {this.props.text}</div>
+				<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
+				<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Reset Quiz</div>
 			</div>
 		);
 	}
