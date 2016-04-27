@@ -18,7 +18,8 @@ export default class Overlay extends React.Component {
 			height: window.innerHeight,
 			backgroundSize: '100px',
 			backgroundPosition: '50% 50%',
-			backgroundRepeat: 'no-repeat'
+			backgroundRepeat: 'no-repeat',
+			zIndex: '-2'
 		};
 
 		Object.assign(style, animate.transition('0.5s'));
