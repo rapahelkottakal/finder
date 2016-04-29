@@ -26,10 +26,11 @@ export default class Question extends React.Component {
 		    top: 0,
 		    left: 0,
 		    width: '100%',
-		    backgroundColor: 'hsla(0,0%,0%,0.4)',
-		    textAlign: 'center',
-		    fontSize: 20,
-		    color: 'white'
+		    backgroundColor: 'hsla(0,0%,0%,0.6)',
+		    // textAlign: 'center',
+		    fontSize: 18,
+		    color: 'white',
+		    textTransform: 'uppercase'
 		};
 		
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -44,7 +45,7 @@ export default class Question extends React.Component {
 	render() {
 		return(
 			<div className="question-wrapper" style={this.getStyles()} ref="question" >
-				<div className="question-text" style={{ padding: '10px 15px'}}>{this.props.text}</div>
+				<div className="question-text" style={{ padding: '20px 15px', paddingBottom: 10}}>{this.props.text}</div>
 			</div>
 		);
 	}

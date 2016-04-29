@@ -2,257 +2,160 @@ export default {
 
 	overlay: {
 		bgColor: 'white',
-		img: 'http://assets.myntassets.com/v1455262275/Lookgood/for%20marketing/loading.gif',
-		placeholder: 'Avatar - The last airbender'
+		img: 'http://assets.myntassets.com/v1461845818/reactive/finder/loading-min.gif'
 	},
 
 	qNa: [
 
 		{
 			question: {
-				text: 'What do you do?',
+				text: 'What is your favourite summer style?',
 				weight: 3
 			},
 			options: [
 				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1461755590/Lookgood/test-1-min.jpg',
-					text: 'Shift dress'
+					key: 'paris',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-1.jpg',
+					text: 'Shift dress and thigh-high gladiators'
 				},
 				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458220020/levis-quiz-men-q1option2-min_ha3mbi.png',
-					text: 'Option'
+					key: 'milan',
+					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-1-opt-2.jpg',
+					text: 'Sundress and sneakers'
 				},
 				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458220020/levis-quiz-men-q1option3-min_djf7sa.png',
-					text: 'Option'
+					key: 'london',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-3.jpg',
+					text: 'Midi skirts with crop tops'
 
 				},
 				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458220020/levis-quiz-men-q1option4-min_cpdjwc.png',
-					text: 'Option'
+					key: 'nyc',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-4.jpg',
+					text: 'Playsuit with a floppy hat'
 
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458220020/levis-quiz-men-q1option5-min_ey70jb.png',
-					text: 'Option'
-
-				},
+				}
 
 			]
 		},
 
 		{
 			question: {
-				text: 'How would you best describe your personal style?',
+				text: 'What is your go-to accessory?',
 				weight: 3.5
 			},
 			options: [
 				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458136126/Lookgood/levis-quiz-men-q2option1-min.png',
-					text: 'Option'
+					key: 'ny',
+					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-1.jpg',
+					text: 'High heels'
 
 				},
 				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458136125/Lookgood/levis-quiz-men-q2option2-min.png',
-					text: 'Option'
+					key: 'milan',
+					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-2.jpg',
+					text: 'Scarves'
 
 				},
 				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458136126/Lookgood/levis-quiz-men-q2option3-min.png',
-					text: 'Option'
+					key: 'london',
+					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-3.jpg',
+					text: 'Sling bags'
 
 				},
 				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458136126/Lookgood/levis-quiz-men-q2option4-min.png',
-					text: 'Option'
+					key: 'paris',
+					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-4-min.jpg',
+					text: 'Round-rimmed sunglasses'
 
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458136126/Lookgood/levis-quiz-men-q2option5-min.png',
-					text: 'Option'
-
-				},
+				}
 
 			]
 		},
 
 		{
 			question: {
-				text: "What's your idea of a perfect weekend?",
+				text: "Pick your favourite pattern from below.",
 				weight: 7.2
 			},
 			options: [
 				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458136126/Lookgood/levis-quiz-men-q3option1-min.png',
-					text: 'Option'
+					key: 'london',
+					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-1.jpg',
+					text: 'Bold checks'
 
 				},
 				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458136127/Lookgood/levis-quiz-men-q3option2-min.png',
-					text: 'Option'
+					key: 'paris',
+					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-2.jpg',
+					text: 'Jail stripes'
 				},
 				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458136127/Lookgood/levis-quiz-men-q3option3-min.png',
-					text: 'Option'
+					key: 'milan',
+					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-3.jpg',
+					text: 'Leopard print'
 				},
 				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458136127/Lookgood/levis-quiz-men-q3option4-min.png',
-					text: 'Option'
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458136127/Lookgood/levis-quiz-men-q3option5-min.png',
-					text: 'Option'
-				},
+					key: 'ny',
+					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-4.jpg',
+					text: 'Florals'
+				}
 
 			]
 		},
 
 		{
 			question: {
-				text: "What's your footwear of choice?",
+				text: "Which picture from below makes your stomach growl?",
 				weight: 1
 			},
 			options: [
 				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458136127/Lookgood/levis-quiz-men-q4option1-min.png',
-					text: 'Option'
+					key: 'paris',
+					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-1.jpg',
+					text: 'Strawberry crepes'
 				},
 				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458136128/Lookgood/levis-quiz-men-q4option2-min.png',
-					text: 'Option'
+					key: 'milan',
+					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-2.jpg',
+					text: 'Pepperoni pizza'
 				},
 				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458136127/Lookgood/levis-quiz-men-q4option3-min.png',
-					text: 'Option'
+					key: 'ny',
+					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-4-opt-3.jpg',
+					text: 'Fish and chips'
 				},
 				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458136128/Lookgood/levis-quiz-men-q4option4-min.png',
-					text: 'Option'
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458136128/Lookgood/levis-quiz-men-q4option5-min.png',
-					text: 'Option'
-				},
+					key: 'london',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-4-opt-4.jpg',
+					text: 'Hotdogs'
+				}
 
 			]
 		},
 
 		{
 			question: {
-				text: 'What kind of shirts do you normally wear?',
-				weight: 5.25
-			},
-			options: [
-				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458136698/Lookgood/levis-quiz-men-q5option1-min.png',
-					text: 'Option'
-				},
-				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458136698/Lookgood/levis-quiz-men-q5option2-min.png',
-					text: 'Option'
-				},
-				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458136698/Lookgood/levis-quiz-men-q5option3-min.png',
-					text: 'Option'
-				},
-				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458136699/Lookgood/levis-quiz-men-q5option4-min.png',
-					text: 'Option'
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458136699/Lookgood/levis-quiz-men-q5option5-min.png',
-					text: 'Option'
-				},
-
-			]
-		},
-
-		{
-			question: {
-				text: 'What best sums up your body type?',
-				weight: 4.75,
+				text: 'Pick a word that best describes your personal style.',
+				weight: 5.25,
 				plain: true
 			},
 			options: [
 				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458292893/Lookgood/quiz-q6-average-built.png'
+					key: 'paris',
+					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-5-opt-1.png',
 				},
 				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458292893/Lookgood/quiz-q6-lean.png'
+					key: 'london',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-2.png',
 				},
 				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458292911/Lookgood/quiz-q6-fit-fot-your-age.png'
+					key: 'ny',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-3.png',
 				},
 				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458292945/Lookgood/quiz-q6-well-built.png'
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458293001/Lookgood/quiz-q6-plump.png'
-				},
-
-			]
-		},
-
-		{
-			question: {
-				text: 'What do you love doing most?',
-				weight: 6
-			},
-			options: [
-				{
-					key: 'redloop',
-					image: 'http://assets.myntassets.com/v1458220020/levis-quiz-men-q7option1-min_bfh2xa.png',
-					text: 'Option'
-				},
-				{
-					key: 'motion',
-					image: 'http://assets.myntassets.com/v1458220021/levis-quiz-men-q7option2-min_thhl4b.png',
-					text: 'Option'
-				},
-				{
-					key: 'slim',
-					image: 'http://assets.myntassets.com/v1458220021/levis-quiz-men-q7option3-min_t5lsv6.png',
-					text: 'Option'
-				},
-				{
-					key: 'skinny',
-					image: 'http://assets.myntassets.com/v1458220021/levis-quiz-men-q7option4-min_ihzbqm.png',
-					text: 'Option'
-				},
-				{
-					key: 'original',
-					image: 'http://assets.myntassets.com/v1458220021/levis-quiz-men-q7option5-min_omvust.png',
-					text: 'Option'
+					key: 'milan',
+					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-4.png',
 				},
 
 			]
@@ -261,30 +164,25 @@ export default {
 	],
 
 	results: {
-		'redloop': {
-			image: 'http://assets.myntassets.com/v1458138437/Lookgood/levis-answer-men-red-loop.jpg',
-			text: 'You’re quite the party animal aren’t you? You like to keep your outfit classic to match your taste. The perfect pair of jeans for you would be from the stylish Red loop collection complete with a luxurious look and feel.  These jeans fit like a dream and are sure to make you stand out in the crowd. Explore the collection here.',
-			link: 'http://www.myntra.com/Levis-redloop?f=categories%3AJeans&SRC=Lookgood6'
+		'london': {
+			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-london.jpg',
+			text: 'Congratulations! Your wardrobe is a perfect mix of trendy and classic pieces. Just a pair of nude pumps or a crop top is all you need to look like a diva. You are also not afraid to embrace the changes in fashion trends every now and then!',
+			link: 'http://www.myntra.com/london-trendy-and-classic-pieces?SRC=Lookgood6'
 		},
-		'motion': {
-			image: 'http://assets.myntassets.com/v1458138437/Lookgood/levis-answer-men-motion.jpg',
-			text: 'You’re one person who is always on the move. Your style is the perfect blend of casual and comfortable. That’s why the motion collection is perfect for you. These functional jeans are made using a stretch fabric that provides maximum comfort and are designed to be worn all day long. Explore the collection here.',
-			link: 'http://www.myntra.com/Levis-motion?SRC=Lookgood6'
+		'paris': {
+			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-paris.jpg',
+			text: 'Congratulations! Your personal style resembles that of French belles on the streets of Paris. Stripes are an important part of your wardrobe. And so is the colour black. Fashion comes naturally to you as you never compromise on your elegance and comfort.',
+			link: 'http://www.myntra.com/paris-french-belles-on-streets?SRC=Lookgood6'
 		},
-		'slim': {
-			image: 'http://assets.myntassets.com/v1458138437/Lookgood/levis-answer-men-511.jpg',
-			text: 'You’re quite the no-nonsense type of person. Your style is classic yet understated. The 511slim is the perfect pair of jeans for you. It’s a cut between skinny and straight fit and fits perfectly without restricting any movement. That’s why they’ll make your perfect everyday companion. Explore the collection here.',
-			link: 'http://www.myntra.com/Levis-511-slim?f=categories%3AJeans&SRC=Lookgood6'
+		'ny': {
+			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-new-york.jpg',
+			text: 'Congratulations! You dress like the true-blue New Yorker! You believe in yourself and your style reflects it. You never go back from being experimental and thus, you create your own fashion statement. High heels are something that you never compromise with!',
+			link: 'http://www.myntra.com/true-blue-new-yorker?SRC=Lookgood6'
 		},
-		'skinny': {
-			image: 'http://assets.myntassets.com/v1458138437/Lookgood/levis-answer-men-65504-extra-skinny-.jpg',
-			text: 'You’re young, wild and free! Your style keeps changing every day and of course you keep track of all the latest trends. The 65504 extra skinny jeans should be your go-to pair because it’s contemporary, stylish and rugged; just like you. Explore the collection here.',
-			link: 'http://www.myntra.com/Levis-extra-skinny?f=categories%3AJeans&SRC=Lookgood6'
-		},
-		'original': {
-			image: 'http://assets.myntassets.com/v1458138437/Lookgood/levis-answer-men-501.jpg',
-			text: 'Creative is like your middle name. You love to explore new things and are quite the social animal. You need a pair of jeans that provides you with utmost comfort and that’s why the classic 501 original series is the collection for you. This style suits those with a slightly larger build and is designed to flatter. Explore the collection here. ',
-			link: 'http://www.myntra.com/Levis-501-original?SRC=Lookgood6'
+		'milan': {
+			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-milan.jpg',
+			text: 'Congratulations! Milan is your inspiration. Although you go for more laid back looks, trainers are a big no-no outside the gym. Printed scarves are one accessory that is a staple for your wardrobe.',
+			link: 'http://www.myntra.com/milan-your-inspiration?SRC=Lookgood6'
 		}
 	}
 

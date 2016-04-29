@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import 'normalize.css/normalize.css';
+import '../css/main.css';
 
 import Overlay from './overlay';
 import Option from './option';
@@ -55,7 +56,16 @@ export default class Finder extends React.Component {
 	}
 
 	restart() {
-		this.setState({ resultPage: false, questionNo: 0 });
+
+		let resultOpts = {}
+		
+		_.forEach(this.props.data.results, function(obj,key) {
+			resultOpts[key] = 0;
+		});
+
+
+		this.setState({ resultPage: false, questionNo: 0, resultOpts });
+
 	}
 
 	openOverlay() {
@@ -70,16 +80,18 @@ export default class Finder extends React.Component {
 
 	updateQuestionNo(result, weight) {
 
+		let newResult = this.state.resultOpts;
+
+		newResult[result] = newResult[result] + weight;
+
+		this.setState({
+			resultOpts: newResult
+		});
 
 		if (this.state.totalQuestions > this.state.questionNo + 1 ) {
 
-			let newResult = this.state.resultOpts;
-
-			newResult[result] = newResult[result] + weight;
-
 			this.setState({
 				questionNo: this.state.questionNo + 1,
-				resultOpts: newResult
 			});
 			
 		} else {
@@ -95,8 +107,7 @@ export default class Finder extends React.Component {
 	getContainerStyles() {
 		return {
 			minHeight: window.innerHeight,
-		    backgroundImage: 'url("http://assets.myntassets.com/v1461756655/Lookgood/2016/background.jpg")',
-			backgroundColor: 'rgb(58, 169, 219)',
+		    backgroundImage: 'url("http://assets.myntassets.com/v1461838173/reactive/finder/4-27/background.jpg")',
 			position: 'absolute',
 			top: 0,
 			left: 0,
@@ -112,7 +123,7 @@ export default class Finder extends React.Component {
 		return {
 			maxWidth: 360,
 			margin: '0 auto',
-			paddingTop: 50,
+			paddingTop: 100,
 			paddingBottom: 1
 		}
 	}

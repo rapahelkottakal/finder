@@ -17,7 +17,8 @@ export default class ResultPage extends React.Component {
 	resultTextStyle(){
 		return{
 			backgroundColor: '#F2F1F6',
-			padding: '4% 12% 20%',
+			padding: '5px 20px',
+			paddingBottom: 50,
 			lineHeight: '1.5',
 			marginTop: '-4px'
 		}
@@ -25,38 +26,26 @@ export default class ResultPage extends React.Component {
 
 	shopButtonStyle(){
 		return{
-			textAlign: 'center',
-			backgroundColor: '#7E7DC3',
-			padding: '2% 4%',
-			margin: '0 auto',
+			backgroundColor: 'black',
+			padding: '1px 20px',
 			textDecoration: 'none',
 			color: '#fff',
-			fontSize: '20px',
-			fontFamily: 'sans-serif',
-			position: 'absolute',
-			bottom: '4%',
-			left: '12%',
-			borderRadius: '5px',
-			fontWeight: '600',
-			cursor: 'pointer'
+			textTransform: 'uppercase',
+			fontSize: 16
 		}	
 	}
 
 	resetQuizStyle(){
 		return{
-			textAlign: 'center',
-			backgroundColor: '#7E7DC3',
-			padding: '2% 4%',
-			margin: '0 auto',
-			textDecoration: 'none',
-			color: '#fff',
-			fontSize: '20px',
-			fontFamily: 'sans-serif',
 			position: 'absolute',
-			bottom: '4%',
-			right: '12%',
-			borderRadius: '5px',
-			fontWeight: '600',
+			left: 0,
+			bottom: 0,
+			width: '100%',
+			textAlign: 'center',
+			backgroundColor: '#61B3Db',
+			color: '#fff',
+			textTransform: 'uppercase',
+			fontSize: 16,
 			cursor: 'pointer'
 		}
 	}
@@ -73,9 +62,12 @@ export default class ResultPage extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
-				<div style= {this.resultTextStyle()}> {this.props.text}</div>
-				<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
-				<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Reset Quiz</div>
+				<div style= {this.resultTextStyle()}>
+					<p>{this.props.text}</p>
+
+					<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
+					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
+				</div>
 			</div>
 		);
 	}

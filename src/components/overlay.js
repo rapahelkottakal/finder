@@ -40,7 +40,7 @@ export default class Overlay extends React.Component {
 		// {this.props.loadedImgs} /{this.props.totalImgs} 
 		return (
 			<div className="overlay" style={this.getStyles()}>
-				<p style={{textAlign:'right', padding: '10px 30px'}}>Images Loading</p>
+				<p style={{textAlign:'right', padding: '10px 30px'}}></p>
 			</div>
 			)
 	}

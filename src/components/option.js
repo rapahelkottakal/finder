@@ -10,8 +10,7 @@ export default class Option extends React.Component {
 	getStyles() {
 		let styles = {
 			borderBottom: '1px solid lightgray',
-			marginBottom: 15,
-			paddingBottom: 15
+			padding: '15px 30px'
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -26,8 +25,9 @@ export default class Option extends React.Component {
 	getTextStyles() {
 		return {
 			textAlign: 'center',
-			fontSize: 30,
-			color: 'white'
+			fontSize: 16,
+			color: 'white',
+			textTransform: 'uppercase'
 		}
 	}
 
