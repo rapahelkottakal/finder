@@ -26,7 +26,7 @@ export default class Question extends React.Component {
 		    top: 0,
 		    left: 0,
 		    width: '100%',
-		    backgroundColor: 'hsla(0,0%,0%,0.6)',
+		    backgroundColor: 'hsla(21, 90%, 54%,0.9)',
 		    // textAlign: 'center',
 		    fontSize: 18,
 		    color: 'white',
