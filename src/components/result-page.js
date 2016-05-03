@@ -21,7 +21,8 @@ export default class ResultPage extends React.Component {
 			padding: '5px 20px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
-			marginTop: '-4px'
+			marginTop: '-4px',
+			textAlign: 'center',
 		}
 	}
 

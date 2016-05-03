@@ -50,11 +50,10 @@ export default class Option extends React.Component {
 
 	render() {
 		let imgStyle = {
-			maxWidth: 200,
+			maxWidth: 150,
 			display: 'block',
 			margin: '0 auto',
 			width: '100%',
-			marginBottom: 10
 		}
 
 		if(!this.props.plain) {

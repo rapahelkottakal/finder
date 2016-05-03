@@ -61,31 +61,31 @@ export default {
 			options: [
 				{
 					key: 'loafers',
-					image: 'http://assets.myntassets.com/v1462262869/reactive/finder/4-28/footwear-personality-question2-opt1.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270341/reactive/finder/4-28/footwear-personality-question2-opt1.jpg-min.png',
 
 				},
 				{
 					key: 'pumps',
-					image: 'http://assets.myntassets.com/v1462262869/reactive/finder/4-28/footwear-personality-question2-opt2.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270341/reactive/finder/4-28/footwear-personality-question2-opt2.jpg-min.png',
 
 				},
 				{
 					key: 'flatforms',
-					image: 'http://assets.myntassets.com/v1462262869/reactive/finder/4-28/footwear-personality-question2-opt3.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270341/reactive/finder/4-28/footwear-personality-question2-opt3.jpg-min.png',
 
 				},
 				{
 					key: 'gladiators',
-					image: 'http://assets.myntassets.com/v1462262869/reactive/finder/4-28/footwear-personality-question2-opt4.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270341/reactive/finder/4-28/footwear-personality-question2-opt4.jpg-min.png',
 
 				},
 				{
 					key: 'sneakers',
-					image: 'http://assets.myntassets.com/v1462262869/reactive/finder/4-28/footwear-personality-question2-opt5.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270341/reactive/finder/4-28/footwear-personality-question2-opt5.jpg-min.png',
 				},
 				{
 					key: 'thong',
-					image: 'http://assets.myntassets.com/v1462262869/reactive/finder/4-28/footwear-personality-question2-opt6.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270341/reactive/finder/4-28/footwear-personality-question2-opt6.jpg-min.png',
 
 				}
 
@@ -193,12 +193,12 @@ export default {
 				},
 				{
 					key: 'sneakers',
-					image: 'http://assets.myntassets.com/v1462265852/reactive/finder/4-28/footwear-personality-question5-opt4-min.jpg',
+					image: 'http://assets.myntassets.com/v1462265852/reactive/finder/4-28/footwear-personality-question5-opt3-min.jpg',
 					text: 'Kendall Jenner'
 				},
 				{
 					key: 'loafer',
-					image: 'http://assets.myntassets.com/v1462265852/reactive/finder/4-28/footwear-personality-question5-opt3-min.jpg',
+					image: 'http://assets.myntassets.com/v1462265852/reactive/finder/4-28/footwear-personality-question5-opt4-min.jpg',
 					text: 'Victoria Beckham'
 				},
 				{
@@ -224,32 +224,32 @@ export default {
 			options: [
 				{
 					key: 'gladiators',
-					image: 'http://assets.myntassets.com/v1462265993/reactive/finder/4-28/footwear-personality-question6-opt1.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270543/reactive/finder/4-28/footwear-personality-question6-opt1.jpg-min.png',
 					// text: 'Free spirited'
 				},
 				{
 					key: 'flatforms',
-					image: 'http://assets.myntassets.com/v1462265993/reactive/finder/4-28/footwear-personality-question6-opt2.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270543/reactive/finder/4-28/footwear-personality-question6-opt2.jpg-min.png',
 					// text: 'Powerful and sexy'
 				},
 				{
 					key: 'pumps',
-					image: 'http://assets.myntassets.com/v1462265993/reactive/finder/4-28/footwear-personality-question6-opt3.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270543/reactive/finder/4-28/footwear-personality-question6-opt3.jpg-min.png',
 					// text: 'Well-groomed'
 				},
 				{
 					key: 'sneakers',
-					image: 'http://assets.myntassets.com/v1462265993/reactive/finder/4-28/footwear-personality-question6-opt4.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270543/reactive/finder/4-28/footwear-personality-question6-opt4.jpg-min.png',
 					// text: 'Spontaneous'
 				},
 				{
 					key: 'loafer',
-					image: 'http://assets.myntassets.com/v1462265993/reactive/finder/4-28/footwear-personality-question6-opt5.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270543/reactive/finder/4-28/footwear-personality-question6-opt5.jpg-min.png',
 					// text: 'Confident'
 				},
 				{
 					key: 'thong',
-					image: 'http://assets.myntassets.com/v1462265993/reactive/finder/4-28/footwear-personality-question6-opt6.jpg-min.png',
+					image: 'http://assets.myntassets.com/v1462270543/reactive/finder/4-28/footwear-personality-question6-opt6.jpg-min.png',
 					// text: 'Laid back'
 				},
 
