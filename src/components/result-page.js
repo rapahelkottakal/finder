@@ -16,22 +16,22 @@ export default class ResultPage extends React.Component {
 
 	resultTextStyle(){
 		return{
-			backgroundColor: '#f36b21',
-			color: 'white',
+			backgroundColor: 'white',
+			color: 'black',
 			padding: '5px 20px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
 			marginTop: '-4px',
-			textAlign: 'center',
+			// textAlign: 'center',
 		}
 	}
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: 'white',
+			backgroundColor: '#f05367',
 			padding: '1px 20px',
 			textDecoration: 'none',
-			color: '#f36b21',
+			color: 'white',
 			textTransform: 'uppercase',
 			fontSize: 16
 		}	
@@ -48,7 +48,8 @@ export default class ResultPage extends React.Component {
 			color: '#fff',
 			textTransform: 'uppercase',
 			fontSize: 16,
-			cursor: 'pointer'
+			cursor: 'pointer',
+			padding: '10px 0'
 		}
 	}
 

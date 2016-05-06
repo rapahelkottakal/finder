@@ -25,9 +25,10 @@ export default class Option extends React.Component {
 	getTextStyles() {
 		return {
 			textAlign: 'center',
-			fontSize: 16,
-			color: 'white',
-			textTransform: 'uppercase'
+			fontSize: 20,
+			color: 'black',
+			textTransform: 'uppercase',
+			marginTop: 15
 		}
 	}
 
@@ -50,14 +51,16 @@ export default class Option extends React.Component {
 
 	render() {
 		let imgStyle = {
-			maxWidth: 150,
+			maxWidth: 250,
 			display: 'block',
 			margin: '0 auto',
 			width: '100%',
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+			_.assignIn(imgStyle, { borderRadius: '100%', 
+				// boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' 
+			} );
 		}
 
 

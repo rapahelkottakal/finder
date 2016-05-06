@@ -107,8 +107,8 @@ export default class Finder extends React.Component {
 	getContainerStyles() {
 		return {
 			minHeight: window.innerHeight,
-			backgroundColor: '#414042',
-		    // backgroundImage: 'url("http://assets.myntassets.com/v1461838173/reactive/finder/4-27/background.jpg")',
+			backgroundColor: '#FFFFFF',
+		    backgroundImage: 'url("http://assets.myntassets.com/v1462530393/radium/finder/4-29/background-min.jpg")',
 			position: 'absolute',
 			top: 0,
 			left: 0,
