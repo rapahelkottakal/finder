@@ -9,8 +9,8 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			borderBottom: '1px solid lightgray',
-			padding: '15px 30px'
+			width: '100%',
+			marginBottom: '50px'
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -24,10 +24,16 @@ export default class Option extends React.Component {
 
 	getTextStyles() {
 		return {
-			textAlign: 'center',
 			fontSize: 16,
 			color: 'white',
-			textTransform: 'uppercase'
+			textTransform: 'uppercase',
+			minHeight: '116px',
+			height: 'auto',
+			backgroundColor: '#f05367',
+			margin: '0 0 50px 192px',
+			fontWeight:'bold',
+			padding: '9% 5%'
+
 		}
 	}
 
@@ -50,12 +56,20 @@ export default class Option extends React.Component {
 
 	render() {
 		let imgStyle = {
-			maxWidth: '100%',
+			marginBottom: 10
+		}
+		let tcimgStyle = {
+			maxWidth: '50%',
 			marginBottom: 10
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+			_.assignIn(imgStyle, { maxWidth: '50%',float: 'left' } );
+		}else if(!this.props.twoColumn)  {
+			_.assignIn(imgStyle, { maxWidth: '100%',borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' }  );
+		}else{
+			_.assignIn(imgStyle, { maxWidth: '100%', borderRadius: '50%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+
 		}
 
 
@@ -65,7 +79,8 @@ export default class Option extends React.Component {
 					src={this.props.image}
 					imgProps={{ style: imgStyle }}
 					wrapper={React.DOM.div}
-					onLoad={this.props.imageLoaded}>
+					onLoad={this.props.imageLoaded}>					
+					<p>{this.props.optText}</p>
 					Image load failed!
 				</ImageLoader>
 				{this.getText()}

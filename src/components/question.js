@@ -26,11 +26,13 @@ export default class Question extends React.Component {
 		    top: 0,
 		    left: 0,
 		    width: '100%',
-		    backgroundColor: 'hsla(0,0%,0%,0.6)',
+		    backgroundColor: '#00b59d',
 		    // textAlign: 'center',
 		    fontSize: 18,
 		    color: 'white',
-		    textTransform: 'uppercase'
+		    textTransform: 'uppercase',
+			fontWeight:'bold',
+		    
 		};
 		
 		_.assignIn(styles, animate.transition('0.5s'));

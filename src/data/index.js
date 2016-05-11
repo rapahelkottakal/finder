@@ -10,7 +10,8 @@ export default {
 		{
 			question: {
 				text: 'What is your favourite summer style?',
-				weight: 3
+				weight: 3,
+				twoColumn: true
 			},
 			options: [
 				{
@@ -42,7 +43,8 @@ export default {
 		{
 			question: {
 				text: 'What is your go-to accessory?',
-				weight: 3.5
+				weight: 3.5,
+				twoColumn: true
 			},
 			options: [
 				{
@@ -76,7 +78,8 @@ export default {
 		{
 			question: {
 				text: "Pick your favourite pattern from below.",
-				weight: 7.2
+				weight: 7.2,
+				twoColumn: true
 			},
 			options: [
 				{
@@ -107,7 +110,8 @@ export default {
 		{
 			question: {
 				text: "Which picture from below makes your stomach growl?",
-				weight: 1
+				weight: 1,
+				twoColumn: true
 			},
 			options: [
 				{
@@ -138,7 +142,7 @@ export default {
 			question: {
 				text: 'Pick a word that best describes your personal style.',
 				weight: 5.25,
-				plain: true
+				twoColumn: true
 			},
 			options: [
 				{
