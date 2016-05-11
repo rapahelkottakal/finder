@@ -9,31 +9,31 @@ export default {
 
 		{
 			question: {
-				text: 'What is your favourite summer style?',
-				weight: 3,
+				text: 'What excites you the most during various Indian festive season?',
+				weight: 4,
 				twoColumn: true
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-1.jpg',
-					text: 'Shift dress and thigh-high gladiators'
+					key: 'jazzy',
+					image: 'http://assets.myntassets.com/v1462959627/reactive/finder/5-5/ethnic-wear-question1-opt1.jpg',
+					text: 'Everything; the lights, the gathering, food, all the colours'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-1-opt-2.jpg',
-					text: 'Sundress and sneakers'
+					key: 'classic',
+					image: 'http://assets.myntassets.com/v1462959628/reactive/finder/5-5/ethnic-wear-question1-opt2.jpg',
+					text: 'That I can catch up with friends and family'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-3.jpg',
-					text: 'Midi skirts with crop tops'
+					key: 'trendy',
+					image: 'http://assets.myntassets.com/v1462959628/reactive/finder/5-5/ethnic-wear-question1-opt3.jpg',
+					text: 'That I can go shopping without feeling guilty'
 
 				},
 				{
-					key: 'nyc',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-4.jpg',
-					text: 'Playsuit with a floppy hat'
+					key: 'casuachic',
+					image: 'http://assets.myntassets.com/v1462959628/reactive/finder/5-5/ethnic-wear-question1-opt4.jpg',
+					text: 'Well, good to have breaks time to time from the regular routine'
 
 				}
 
@@ -42,33 +42,33 @@ export default {
 
 		{
 			question: {
-				text: 'What is your go-to accessory?',
-				weight: 3.5,
+				text: 'Which movie character do you want to be like the most? ',
+				weight: 1.5,
 				twoColumn: true
 			},
 			options: [
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-1.jpg',
-					text: 'High heels'
+					key: 'trendy',
+					image: 'http://assets.myntassets.com/v1462960850/reactive/finder/5-5/ethnic-wear-question2-opt1.jpg',
+					text: 'Priyanka in Dostana '
 
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-2.jpg',
-					text: 'Scarves'
+					key: 'casual-chic',
+					image: 'http://assets.myntassets.com/v1462960850/reactive/finder/5-5/ethnic-wear-question2-opt2.jpg',
+					text: 'Deepika in Piku'
 
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-3.jpg',
-					text: 'Sling bags'
+					key: 'jazzy',
+					image: 'http://assets.myntassets.com/v1462960850/reactive/finder/5-5/ethnic-wear-question2-opt3.jpg',
+					text: 'Kangana in Tanu Weds Manu'
 
 				},
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-4-min.jpg',
-					text: 'Round-rimmed sunglasses'
+					key: 'classic',
+					image: 'http://assets.myntassets.com/v1462960850/reactive/finder/5-5/ethnic-wear-question2-opt4.jpg',
+					text: 'Sonam in Aisha'
 
 				}
 
@@ -77,62 +77,31 @@ export default {
 
 		{
 			question: {
-				text: "Pick your favourite pattern from below.",
-				weight: 7.2,
-				twoColumn: true
-			},
-			options: [
-				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-1.jpg',
-					text: 'Bold checks'
-
-				},
-				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-2.jpg',
-					text: 'Jail stripes'
-				},
-				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-3.jpg',
-					text: 'Leopard print'
-				},
-				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-4.jpg',
-					text: 'Florals'
-				}
-
-			]
-		},
-
-		{
-			question: {
-				text: "Which picture from below makes your stomach growl?",
+				text: "You will not step out of your room while getting ready for an occasion if -",
 				weight: 1,
 				twoColumn: true
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-1.jpg',
-					text: 'Strawberry crepes'
+					key: 'classic',
+					image: 'http://assets.myntassets.com/v1462961080/reactive/finder/5-5/ethnic-wear-question3-opt1.png',
+					text: 'Your make-up is not perfect. Like perfect!'
+
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-2.jpg',
-					text: 'Pepperoni pizza'
+					key: 'trendy',
+					image: 'http://assets.myntassets.com/v1462961080/reactive/finder/5-5/ethnic-wear-question3-opt2.png',
+					text: 'You have doubts about even one element of your entire look'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-4-opt-3.jpg',
-					text: 'Fish and chips'
+					key: 'jazzy',
+					image: 'http://assets.myntassets.com/v1462961080/reactive/finder/5-5/ethnic-wear-question3-opt3.png',
+					text: 'Your shoes don’t match your bag'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-4-opt-4.jpg',
-					text: 'Hotdogs'
+					key: 'casual-chic',
+					image: 'http://assets.myntassets.com/v1462961080/reactive/finder/5-5/ethnic-wear-question3-opt4.png',
+					text: 'Doesn’t matter, you will come out anyway'
 				}
 
 			]
@@ -140,26 +109,61 @@ export default {
 
 		{
 			question: {
-				text: 'Pick a word that best describes your personal style.',
-				weight: 5.25,
+				text: "Pick your favourite ethnic look from below.",
+				weight: 2,
 				twoColumn: true
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-5-opt-1.png',
+					key: 'jazzy',
+					image: 'http://assets.myntassets.com/v1462961166/reactive/finder/5-5/ethnic-wear-question4-opt1.jpg',
+					text: 'Heavily embellished outfits-jutti-side parted hair-stone bindi-glittery eyeshadow'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-2.png',
+					key: 'trendy',
+					image: 'http://assets.myntassets.com/v1462961166/reactive/finder/5-5/ethnic-wear-question4-opt2.jpg',
+					text: 'Embellished outfits-embellished flats-open hair-no bindi-winged eye'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-3.png',
+					key: 'classic',
+					image: 'http://assets.myntassets.com/v1462961167/reactive/finder/5-5/ethnic-wear-question4-opt3.jpg',
+					text: 'Pure Silk/cotton/jute-heels-low bun-big bindi-kohl eyes'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-4.png',
+					key: 'casual-chic',
+					image: 'http://assets.myntassets.com/v1462961167/reactive/finder/5-5/ethnic-wear-question4-opt4.jpg',
+					text: 'Outfits without much embellishment-platforms-fishtail braid-no bindi-eyeliner'
+				}
+
+			]
+		},
+
+		{
+			question: {
+				text: 'What is your favourite pastime?',
+				weight: 1.5,
+				twoColumn: true
+			},
+			options: [
+				{
+					key: 'classic',
+					image: 'http://assets.myntassets.com/v1462961275/reactive/finder/5-5/ethnic-wear-question5-opt1.jpg',
+					text: 'Trying out the new fancy restaurant for an evening of good wine and conversation'
+				},
+				{
+					key: 'trendy',
+					image: 'http://assets.myntassets.com/v1462961275/reactive/finder/5-5/ethnic-wear-question5-opt2.jpg',
+					text: 'Chit chatting with my girls and the boys who’re crushing on me'
+				},
+				{
+					key: 'casual-chic',
+					image: 'http://assets.myntassets.com/v1462961275/reactive/finder/5-5/ethnic-wear-question5-opt3.jpg',
+					text: 'Lounging at home and ordering in'
+				},
+				{
+					key: 'jazzy',
+					image: 'http://assets.myntassets.com/v1462961276/reactive/finder/5-5/ethnic-wear-question5-opt4.jpg',
+					text: 'Partying! Pub crawls, house parties, anything which involves dancing'
 				},
 
 			]
@@ -168,25 +172,25 @@ export default {
 	],
 
 	results: {
-		'london': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-london.jpg',
-			text: 'Congratulations! Your wardrobe is a perfect mix of trendy and classic pieces. Just a pair of nude pumps or a crop top is all you need to look like a diva. You are also not afraid to embrace the changes in fashion trends every now and then!',
-			link: 'http://www.myntra.com/london-trendy-and-classic-pieces?SRC=Lookgood6'
+		'classic': {
+			image: 'http://assets.myntassets.com/v1462961471/reactive/finder/5-5/ethnic-wear-answer1.jpg',
+			text: 'Congratulations! You are a classic beauty. Sophistication and elegance, these are the key elements of your fashion sensibility. You’re updated about trends but don’t follow them blindly. Earthy colours and pure materials are what you look for when you shop. You are confident with the way you carry yourself. ',
+			link: 'http://www.myntra.com/classic-beauty-style?SRC=Lookgood6'
 		},
-		'paris': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-paris.jpg',
-			text: 'Congratulations! Your personal style resembles that of French belles on the streets of Paris. Stripes are an important part of your wardrobe. And so is the colour black. Fashion comes naturally to you as you never compromise on your elegance and comfort.',
-			link: 'http://www.myntra.com/paris-french-belles-on-streets?SRC=Lookgood6'
+		'jazzy': {
+			image: 'http://assets.myntassets.com/v1462961471/reactive/finder/5-5/ethnic-wear-answer2.jpg',
+			text: 'Congratulations! You celebrate life to the fullest. You are energetic and vibrant and your style reflects it. You stand out with your unusual choice of colours and patterns. It’s fun to be around you because you have good sense of humour. You are happy in your skin.',
+			link: 'http://www.myntra.com/jazzy-energetic-style?SRC=Lookgood6'
 		},
-		'ny': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-new-york.jpg',
-			text: 'Congratulations! You dress like the true-blue New Yorker! You believe in yourself and your style reflects it. You never go back from being experimental and thus, you create your own fashion statement. High heels are something that you never compromise with!',
-			link: 'http://www.myntra.com/true-blue-new-yorker?SRC=Lookgood6'
+		'casual-chic': {
+			image: 'http://assets.myntassets.com/v1462961471/reactive/finder/5-5/ethnic-wear-answer3.jpg',
+			text: 'Congratulations! You are easy-going and content. Your outfit choices are dictated more by comfort than the need to fit in. You like to keep it simple, yet fun. Minimal accessories and fuss-free make-up is what keeps your looks refreshing. End of the day, fun is what you seek.',
+			link: 'http://www.myntra.com/easy-going-casual-chic?SRC=Lookgood6'
 		},
-		'milan': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-milan.jpg',
-			text: 'Congratulations! Milan is your inspiration. Although you go for more laid back looks, trainers are a big no-no outside the gym. Printed scarves are one accessory that is a staple for your wardrobe.',
-			link: 'http://www.myntra.com/milan-your-inspiration?SRC=Lookgood6'
+		'trendy': {
+			image: 'http://assets.myntassets.com/v1462961472/reactive/finder/5-5/ethnic-wear-answer4.jpg',
+			text: 'Congratulations! You’re the queen of this game and you sure know how to play! You stay on top of fashion trends and interpret them in your unique way to create looks that leave others green with envy. Change is the only constant and you are not afraid to embrace it. You are easy-going and friendly and people look forward to your latest outfits.',
+			link: 'http://www.myntra.com/trendy-ethnic-accessories?SRC=Lookgood6'
 		}
 	}
 

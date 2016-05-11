@@ -10,7 +10,8 @@ export default class Option extends React.Component {
 	getStyles() {
 		let styles = {
 			width: '100%',
-			marginBottom: '50px'
+			marginBottom: '50px',
+			position: 'relative'
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -27,12 +28,14 @@ export default class Option extends React.Component {
 			fontSize: 16,
 			color: 'white',
 			textTransform: 'uppercase',
-			minHeight: '116px',
-			height: 'auto',
+			height: '100%',
 			backgroundColor: '#f05367',
-			margin: '0 0 50px 192px',
 			fontWeight:'bold',
-			padding: '9% 5%'
+			position: 'absolute',
+			top: 0,
+			right: 0,
+			width: '47%',
+			padding: '8% 2%'
 
 		}
 	}
@@ -64,7 +67,7 @@ export default class Option extends React.Component {
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { maxWidth: '50%',float: 'left' } );
+			_.assignIn(imgStyle, { maxWidth: '51%', display: 'block' } );
 		}else if(!this.props.twoColumn)  {
 			_.assignIn(imgStyle, { maxWidth: '100%',borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' }  );
 		}else{
