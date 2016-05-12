@@ -107,7 +107,7 @@ export default class Finder extends React.Component {
 	getContainerStyles() {
 		return {
 			minHeight: window.innerHeight,
-		    backgroundImage: 'url("http://assets.myntassets.com/v1461838173/reactive/finder/4-27/background.jpg")',
+		    backgroundColor: '#ff6ea2',
 			position: 'absolute',
 			top: 0,
 			left: 0,
@@ -122,9 +122,11 @@ export default class Finder extends React.Component {
 	getWrapperStyles() {
 		return {
 			maxWidth: 360,
-			margin: '0 auto',
-			paddingTop: 100,
-			paddingBottom: 1
+			margin: '2%',
+			paddingBottom: 1,
+			border: '2px dashed #fff',
+		    // marginBottom: '6%',
+		    // marginTop: '2%'
 		}
 	}
 
@@ -147,6 +149,7 @@ export default class Finder extends React.Component {
 					key = {i}
 					result={option.key}
 					image={option.image}
+					divider={option.divider}
 					text={option.text}
 					weight={this.props.data.qNa[this.state.questionNo].question.weight}
 					plain={this.props.data.qNa[this.state.questionNo].question.plain}
@@ -205,11 +208,13 @@ export default class Finder extends React.Component {
 
 			return(
 				<div style={this.getContainerStyles()}>
-					<div style={this.getWrapperStyles()}>
-						<Question text={question} loading={this.state.loading} />
-						
-						{ this.createOptions() }
-						
+					<div style={{maxWidth:360, margin: '0 auto'}}>
+						<div style={this.getWrapperStyles()}>
+							<Question text={question} loading={this.state.loading} />
+							
+							{ this.createOptions() }
+							
+						</div>
 					</div>
 
 					<Overlay

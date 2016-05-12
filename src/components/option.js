@@ -9,7 +9,6 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			borderBottom: '1px solid lightgray',
 			padding: '15px 30px'
 		}
 
@@ -26,7 +25,8 @@ export default class Option extends React.Component {
 		return {
 			textAlign: 'center',
 			fontSize: 16,
-			color: 'white',
+			color: 'black',
+			fontWeight:'bold',
 			textTransform: 'uppercase'
 		}
 	}
@@ -35,7 +35,7 @@ export default class Option extends React.Component {
 
 		if (this.props.text) {
 
-			return (<div style={this.getTextStyles()}>{this.props.text}</div>);
+			return (<div style={this.getTextStyles()}>{this.props.text}  </div>);
 		}
 	}
 
@@ -55,7 +55,7 @@ export default class Option extends React.Component {
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+			_.assignIn(imgStyle, { borderRadius: '100%', backgroundColor: 'white'} );
 		}
 
 
@@ -69,6 +69,7 @@ export default class Option extends React.Component {
 					Image load failed!
 				</ImageLoader>
 				{this.getText()}
+				<img style={{ width: '50%', padding: '7% 23% 0'}} src={this.props.divider} />			
 			</div>
 		);
 	}

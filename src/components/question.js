@@ -21,15 +21,16 @@ export default class Question extends React.Component {
 	getStyles() {
 
 		let styles = {
-			position: 'fixed',
 		    zIndex: 999,
 		    top: 0,
 		    left: 0,
 		    width: '100%',
-		    backgroundColor: 'hsla(0,0%,0%,0.6)',
+		    textAlign: 'center',
+		    fontWeight: 'bold',
+		    // backgroundColor: 'hsla(0,0%,0%,0.6)',
 		    // textAlign: 'center',
 		    fontSize: 18,
-		    color: 'white',
+		    color: 'black',
 		    textTransform: 'uppercase'
 		};
 		

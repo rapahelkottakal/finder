@@ -9,30 +9,33 @@ export default {
 
 		{
 			question: {
-				text: 'What is your favourite summer style?',
-				weight: 3
+				text: 'What do you do?',
+				weight: 5.2
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-1.jpg',
-					text: 'Shift dress and thigh-high gladiators'
+					key: 'bag',
+					image: 'http://assets.myntassets.com/v1463029830/reactive/finder/5-9/quiz-accessory-question1-opt1.jpg',
+					text: 'I am a super-mom who mostly works from home',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png',
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-1-opt-2.jpg',
-					text: 'Sundress and sneakers'
+					key: 'watch',
+					image: 'http://assets.myntassets.com/v1463029832/reactive/finder/5-9/quiz-accessory-question1-opt2.jpg',
+					text: 'I have a job that requires me to travel a lot',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-3.jpg',
-					text: 'Midi skirts with crop tops'
+					key: 'jewellery',
+					image: 'http://assets.myntassets.com/v1463029832/reactive/finder/5-9/quiz-accessory-question1-opt3.jpg',
+					text: 'I am a homemaker',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 
 				},
 				{
-					key: 'nyc',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-4.jpg',
-					text: 'Playsuit with a floppy hat'
+					key: 'shoe',
+					image: 'http://assets.myntassets.com/v1463029831/reactive/finder/5-9/quiz-accessory-question1-opt4.jpg',
+					text: 'I have a relaxed 9 to 5 desk job'
 
 				}
 
@@ -41,32 +44,35 @@ export default {
 
 		{
 			question: {
-				text: 'What is your go-to accessory?',
-				weight: 3.5
+				text: 'At a party what makes you go crazy about your colleagues’/ friends’ outfits?',
+				weight: 4.5
 			},
 			options: [
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-1.jpg',
-					text: 'High heels'
+					key: 'bag',
+					image: 'http://assets.myntassets.com/v1463031564/reactive/finder/5-9/quiz-accessory-question2-opt1.jpg',
+					text: 'How they carry their world with them and still look stylish',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-2.jpg',
-					text: 'Scarves'
+					key: 'shoe',
+					image: 'http://assets.myntassets.com/v1463031564/reactive/finder/5-9/quiz-accessory-question2-opt2.jpg',
+					text: 'How she manages to look different everytime',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-3.jpg',
-					text: 'Sling bags'
+					key: 'jewellery',
+					image: 'http://assets.myntassets.com/v1463031564/reactive/finder/5-9/quiz-accessory-question2-opt3.jpg',
+					text: 'How every time she manages to coordinate her entire look flawlessly',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 
 				},
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-4-min.jpg',
-					text: 'Round-rimmed sunglasses'
+					key: 'watch',
+					image: 'http://assets.myntassets.com/v1463031564/reactive/finder/5-9/quiz-accessory-question2-opt4.jpg',
+					text: 'How she looks stunning with minimal make-up'
 
 				}
 
@@ -75,30 +81,33 @@ export default {
 
 		{
 			question: {
-				text: "Pick your favourite pattern from below.",
+				text: "You can’t go to sleep without gathering the latest news about -",
 				weight: 7.2
 			},
 			options: [
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-1.jpg',
-					text: 'Bold checks'
+					key: 'shoe',
+					image: 'http://assets.myntassets.com/v1463031727/reactive/finder/5-9/quiz-accessory-question3-opt1.jpg',
+					text: 'Priyanka Chopra',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 
 				},
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-2.jpg',
-					text: 'Jail stripes'
+					key: 'watch',
+					image: 'http://assets.myntassets.com/v1463031727/reactive/finder/5-9/quiz-accessory-question3-opt2.jpg',
+					text: 'Deepika Padukone',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-3.jpg',
-					text: 'Leopard print'
+					key: 'jewellery',
+					image: 'http://assets.myntassets.com/v1463031726/reactive/finder/5-9/quiz-accessory-question3-opt3.jpg',
+					text: 'Sonam Kapoor',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-4.jpg',
-					text: 'Florals'
+					key: 'bag',
+					image: 'http://assets.myntassets.com/v1463031727/reactive/finder/5-9/quiz-accessory-question3-opt4.jpg',
+					text: 'Alia Bhatt'
 				}
 
 			]
@@ -106,29 +115,32 @@ export default {
 
 		{
 			question: {
-				text: "Which picture from below makes your stomach growl?",
+				text: "Generally your friends describe you as -",
 				weight: 1
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-1.jpg',
-					text: 'Strawberry crepes'
+					key: 'bag',
+					image: 'http://assets.myntassets.com/v1463031824/reactive/finder/5-9/quiz-accessory-question4-opt1.png',
+					text: 'Dependable',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-2.jpg',
-					text: 'Pepperoni pizza'
+					key: 'shoe',
+					image: 'http://assets.myntassets.com/v1463031825/reactive/finder/5-9/quiz-accessory-question4-opt2.png',
+					text: 'Free-spirited',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-4-opt-3.jpg',
-					text: 'Fish and chips'
+					key: 'watch',
+					image: 'http://assets.myntassets.com/v1463031825/reactive/finder/5-9/quiz-accessory-question4-opt3.png',
+					text: 'Powerful and strong willed',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-4-opt-4.jpg',
-					text: 'Hotdogs'
+					key: 'jewellery',
+					image: 'http://assets.myntassets.com/v1463031825/reactive/finder/5-9/quiz-accessory-question4-opt4.png',
+					text: 'Happy-go-lucky'
 				}
 
 			]
@@ -136,53 +148,58 @@ export default {
 
 		{
 			question: {
-				text: 'Pick a word that best describes your personal style.',
-				weight: 5.25,
-				plain: true
+				text: 'You got a sudden break from your regular routine. What is the thing that would come to your mind first? ',
+				weight: 3.2
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-5-opt-1.png',
+					key: 'shoe',
+					image: 'http://assets.myntassets.com/v1463031929/reactive/finder/5-9/quiz-accessory-question5-opt1.jpg',
+					text: 'Road trip with friends',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-2.png',
+					key: 'jewellery',
+					image: 'http://assets.myntassets.com/v1463031928/reactive/finder/5-9/quiz-accessory-question5-opt2.jpg',
+					text: 'Shopping',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-3.png',
+					key: 'watch',
+					image: 'http://assets.myntassets.com/v1463031928/reactive/finder/5-9/quiz-accessory-question5-opt3.jpg',
+					text: 'Catching up with latest releases',
+					divider:'http://assets.myntassets.com/v1463030490/reactive/finder/5-9/quiz-jewellery-divider.png'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-4.png',
+					key: 'bag',
+					image: 'http://assets.myntassets.com/v1463047849/reactive/finder/5-9/quiz-accessory-question5-opt4.jpg',
+					text: 'Brunch with my girl gang',
 				},
-
 			]
 		},
 
 	],
 
 	results: {
-		'london': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-london.jpg',
-			text: 'Congratulations! Your wardrobe is a perfect mix of trendy and classic pieces. Just a pair of nude pumps or a crop top is all you need to look like a diva. You are also not afraid to embrace the changes in fashion trends every now and then!',
-			link: 'http://www.myntra.com/london-trendy-and-classic-pieces?SRC=Lookgood6'
+		'bag': {
+			image: 'http://assets.myntassets.com/v1463032019/reactive/finder/5-9/quiz-accessory-answer1.jpg',
+			text: 'Congratulations! You have your feet firmly planted on the ground. You are hard-working, your friends and family depend on you and you never let them down. As for your fashion statement, you’re quite aware of the current trends and like to dress up as per them. You like to carry your world around with you. For your necessities like phone, notebook and hairpins you need a bag to stuff it all in. Keeping your personality in mind, bags are the accessories that you should splurge on.',
+			link: 'http://www.myntra.com/bags-accessories-to-splurge-on?SRC=Lookgood6'
 		},
-		'paris': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-paris.jpg',
-			text: 'Congratulations! Your personal style resembles that of French belles on the streets of Paris. Stripes are an important part of your wardrobe. And so is the colour black. Fashion comes naturally to you as you never compromise on your elegance and comfort.',
-			link: 'http://www.myntra.com/paris-french-belles-on-streets?SRC=Lookgood6'
+		'shoe': {
+			image: 'http://assets.myntassets.com/v1463032014/reactive/finder/5-9/quiz-accessory-answer2.jpg',
+			text: 'Congratulations! You are the adventurous type. You love to have fun and are always looking for a chance to break away from the mundane routine. Like your vivacious personality, shoes are something you love to experiment with all the time. From a gorgeous pair of stilettos to super trendy white sneakers, from flatforms to brogues; shoes are something that are always on your mind.',
+			link: 'http://www.myntra.com/adventurous-type-people-shoes?SRC=Lookgood6'
 		},
-		'ny': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-new-york.jpg',
-			text: 'Congratulations! You dress like the true-blue New Yorker! You believe in yourself and your style reflects it. You never go back from being experimental and thus, you create your own fashion statement. High heels are something that you never compromise with!',
-			link: 'http://www.myntra.com/true-blue-new-yorker?SRC=Lookgood6'
+		'watch': {
+			image: 'http://assets.myntassets.com/v1463032015/reactive/finder/5-9/quiz-accessory-answer3.jpg',
+			text: 'Congratulations! You are the quintessential woman of this era who knows how to put up a brave front. You are confident and your friends respect you for that. Minimalism is your middle name. You have a knack of making things stand-out with your unique touch every single time. A great watch is what you should look for to compliment your statuesque personality.',
+			link: 'http://www.myntra.com/quintessential-woman-watches?SRC=Lookgood6'
 		},
-		'milan': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-milan.jpg',
-			text: 'Congratulations! Milan is your inspiration. Although you go for more laid back looks, trainers are a big no-no outside the gym. Printed scarves are one accessory that is a staple for your wardrobe.',
-			link: 'http://www.myntra.com/milan-your-inspiration?SRC=Lookgood6'
+		'jewellery': {
+			image: 'http://assets.myntassets.com/v1463032015/reactive/finder/5-9/quiz-accessory-answer4.jpg',
+			text: 'Congratulations! You have a friendly and relaxed personality. People warm up to you instantly. You have a good understanding of fashion and thus, you dress up perfectly for every occasion. Your collection of statement necklaces, cocktail rings and ornate earrings make women go green with envy.',
+			link: 'http://www.myntra.com/jewelleries-for-relaxed-personality?SRC=Lookgood6'
 		}
 	}
 
