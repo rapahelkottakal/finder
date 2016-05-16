@@ -1,190 +1,168 @@
 export default {
 
 	overlay: {
-		bgColor: 'white',
-		img: 'http://assets.myntassets.com/v1461845818/reactive/finder/loading-min.gif'
+		bgColor: '#000',
+		img: 'http://assets.myntassets.com/v1463392285/reactive/gif/loading.gif'
 	},
 
 	qNa: [
 
 		{
 			question: {
-				text: 'One beauty product you can’t live without?',
+				text: 'Heading for a formal party? Which of these suits would you wear?',
 				weight: 3.1
 			},
 			options: [
 				{
-					key: 'minimalist',
-					image: 'http://assets.myntassets.com/v1462527764/radium/finder/4-29/makeup-style-question1-opt1-min.jpg',
-					text: 'Kajal'
+					key: 'Classic',
+					image: 'http://assets.myntassets.com/v1463041767/reactive/finder/11-9/Ranveer-question1-opt1.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 				},
 				{
-					key: 'classic',
-					image: 'http://assets.myntassets.com/v1462527764/radium/finder/4-29/makeup-style-question1-opt2-min.jpg',
-					text: 'Eyeliner'
+					key: 'Quirky',
+					image: 'http://assets.myntassets.com/v1463041767/reactive/finder/11-9/Ranveer-question1-opt2.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 				},
 				{
-					key: 'flamboyant',
-					image: 'http://assets.myntassets.com/v1462527764/radium/finder/4-29/makeup-style-question1-opt3-min.jpg',
-					text: 'Concealer'
+					key: 'Trendy',
+					image: 'http://assets.myntassets.com/v1463041767/reactive/finder/11-9/Ranveer-question1-opt3.jpg',
+					
 
 				},
-				{
-					key: 'retro',
-					image: 'http://assets.myntassets.com/v1462527764/radium/finder/4-29/makeup-style-question1-opt4-min.jpg',
-					text: 'Lipstick'
-
-				}
 
 			]
 		},
 
 		{
 			question: {
-				text: 'What’s your go-to lip product?',
+				text: 'Pick one outfit from below that you’ll wear to catch up with friends over drinks.',
 				weight: 5.75
 			},
 			options: [
 				{
-					key: 'retro',
-					image: 'http://assets.myntassets.com/v1462527884/radium/finder/4-29/makeup-style-question2-opt1-min.jpg',
-					text: 'Deep red matte lipstick'
+					key: 'Trendy',
+					image: 'http://assets.myntassets.com/v1463041867/reactive/finder/11-9/Ranveer-question2-opt1.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 
 				},
 				{
-					key: 'minimalist',
-					image: 'http://assets.myntassets.com/v1462527885/radium/finder/4-29/makeup-style-question2-opt2-min.jpg',
-					text: 'Lip balm'
+					key: 'Classic',
+					image: 'http://assets.myntassets.com/v1463041867/reactive/finder/11-9/Ranveer-question2-opt2.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 
 				},
 				{
-					key: 'flamboyant',
-					image: 'http://assets.myntassets.com/v1462527885/radium/finder/4-29/makeup-style-question2-opt3-min.jpg',
-					text: 'Hot pink gloss'
+					key: 'Quirky',
+					image: 'http://assets.myntassets.com/v1463041867/reactive/finder/11-9/Ranveer-question2-opt3.jpg',
+					
 
 				},
-				{
-					key: 'classic',
-					image: 'http://assets.myntassets.com/v1462527885/radium/finder/4-29/makeup-style-question2-opt4-min.jpg',
-					text: 'Soft pink or nude lipstick'
-
-				}
 
 			]
 		},
 
 		{
 			question: {
-				text: "How often do you wear make-up?",
+				text: "Have a wedding to attend? Which one is closest to your ethnic wear styles?",
 				plain: true,
 				weight: 6.5
 			},
 			options: [
 				{
-					key: 'flamboyant',
-					image: 'http://assets.myntassets.com/v1462525399/radium/finder/4-29/makeup-style-question3-opt1.png',
-					text: 'Every single day'
+					key: 'Classic',
+					image: 'http://assets.myntassets.com/v1463041957/reactive/finder/11-9/Ranveer-question3-opt1.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 
 				},
 				{
-					key: 'classic',
-					image: 'http://assets.myntassets.com/v1462525399/radium/finder/4-29/makeup-style-question3-opt2.png',
-					text: 'Strictly for parties or special occasions'
+					key: 'Quirky',
+					image: 'http://assets.myntassets.com/v1463041957/reactive/finder/11-9/Ranveer-question3-opt2.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 				},
 				{
-					key: 'retro',
-					image: 'http://assets.myntassets.com/v1462525399/radium/finder/4-29/makeup-style-question3-opt3.png',
-					text: 'Depends on my mood'
+					key: 'Trendy',
+					image: 'http://assets.myntassets.com/v1463041957/reactive/finder/11-9/Ranveer-question3-opt3.jpg',
+					
 				},
-				{
-					key: 'minimalist',
-					image: 'http://assets.myntassets.com/v1462525400/radium/finder/4-29/makeup-style-question3-opt4.png',
-					text: 'Make-up? Who has the time?'
-				}
 
 			]
 		},
 
 		{
 			question: {
-				text: "What’s your favourite beauty quote?",
+				text: 'As you can tell, Ranveer is a mad-hatter! Choose one from below that you would love to have in your wardrobe.',
 				plain: true,
 				weight: 4.2
 			},
 			options: [
 				{
-					key: 'flamboyant',
-					image: 'http://assets.myntassets.com/v1462525473/radium/finder/4-29/makeup-style-question4-opt1.png',
+					key: 'Classic',
+					image: 'http://assets.myntassets.com/v1463042053/reactive/finder/11-9/Ranveer-question4-opt1.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
 				},
 				{
-					key: 'classic',
-					image: 'http://assets.myntassets.com/v1462525473/radium/finder/4-29/makeup-style-question4-opt2.png',
+					key: 'Trendy',
+					image: 'http://assets.myntassets.com/v1463042053/reactive/finder/11-9/Ranveer-question4-opt2.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
 				},
 				{
-					key: 'retro',
-					image: 'http://assets.myntassets.com/v1462525474/radium/finder/4-29/makeup-style-question4-opt3.png',
+					key: 'Quirky',
+					image: 'http://assets.myntassets.com/v1463042053/reactive/finder/11-9/Ranveer-question4-opt3.jpg',
 				},
-				{
-					key: 'minimalist',
-					image: 'http://assets.myntassets.com/v1462525474/radium/finder/4-29/makeup-style-question4-opt4.png',
-				}
 
 			]
 		},
 
 		{
 			question: {
-				text: 'How would you describe your nails?',
+				text: 'Gearing up for an eight hour plane ride? Pick one outfit from below that you would wear to the airport.',
 				weight: 4.6
 			},
 			options: [
 				{
-					key: 'retro',
-					image: 'http://assets.myntassets.com/v1462528001/radium/finder/4-29/makeup-style-question5-opt1-min.jpg',
-					text: 'Prim, proper and always perfectly polished'
+					key: 'Classic',
+					image: 'http://assets.myntassets.com/v1463042139/reactive/finder/11-9/Ranveer-question5-opt1.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 				},
 				{
-					key: 'minimalist',
-					image: 'http://assets.myntassets.com/v1462528002/radium/finder/4-29/makeup-style-question5-opt2-min.jpg',
-					text: 'Sometimes polished, sometimes not'
+					key: 'Quirky',
+					image: 'http://assets.myntassets.com/v1463042139/reactive/finder/11-9/Ranveer-question5-opt2.jpg',
+					divider:'http://assets.myntassets.com/v1463057722/reactive/finder/11-9/Ranveer-divider.png'
+					
 				},
 				{
-					key: 'flamboyant',
-					image: 'http://assets.myntassets.com/v1462528002/radium/finder/4-29/makeup-style-question5-opt3-min.jpg',
-					text: 'Need inspiration for funky nail art? You have to look at my nails'
+					key: 'Trendy',
+					image: 'http://assets.myntassets.com/v1463042139/reactive/finder/11-9/Ranveer-question5-opt3.jpg',
+					
 				},
-				{
-					key: 'classic',
-					image: 'http://assets.myntassets.com/v1462528002/radium/finder/4-29/makeup-style-question5-opt4-min.jpg',
-					text: 'No colours. Just a simple french manicure'
-				}
-
 			]
 		}
 
 	],
 
 	results: {
-		'minimalist': {
-			image: 'http://assets.myntassets.com/v1462530280/radium/finder/4-29/makeup-style-answer1-minimalist-min.jpg',
-			text: 'You like everything natural and simple, and the same goes with make-up too. You believe you don’t need make-up to look good. You have a few products that you love and trust, like a nude lip gloss or a black kajal.',
-			link: 'http://www.myntra.com/minimalist-natural-and-simple?SRC=Lookgood6'
+		'Classic': {
+			image: 'http://assets.myntassets.com/v1463138193/reactive/finder/11-9/Ranveer-answer1.1.jpg',
+			text: 'Congratulations! Your personal style embodies Ranveer Singh’s classic persona (which is very rare, we may add). From three piece suits for formal occasions to dapper sherwanis for weddings and other functions, you never stop amusing people with your evergreen style. Top it off with oodles of confidence and the result is a very desirable man.',
+			link: 'http://www.myntra.com/very-desirable-man?SRC=Lookgood6'
 		},
-		'flamboyant': {
-			image: 'http://assets.myntassets.com/v1462530280/radium/finder/4-29/makeup-style-answer2-flamboyant-min.jpg',
-			text: 'You are a make-up junkie. From bright lips to funky nails, you like everything that pops. Your make-up kit is packed with all things that are trending and why not, when you feel good you look great!',
-			link: 'http://www.myntra.com/flamboyant-makeup-junkie?SRC=Lookgood6'
+		'Quirky': {
+			image: 'http://assets.myntassets.com/v1463138194/reactive/finder/11-9/Ranveer-answer2.1.jpg',
+			text: 'From bizarre fashions to eye-popping prints; there’s no limit to your peculiar style. Nonetheless, everyone is in awe of you as you carry them off with utmost poise. You take a trend and dissect it and what comes out takes everyone by surprise. Every day feels like a runway to you and with the audience’s reaction we can tell this show is different but very successful.',
+			link: 'http://www.myntra.com/eye-popping-prints?SRC=Lookgood6'
 		},
-		'retro': {
-			image: 'http://assets.myntassets.com/v1462530280/radium/finder/4-29/makeup-style-answer3-Retro-min.jpg',
-			text: 'Vintage is a term that makes you go dreamy! Lover of all things charming, you take inspiration from the past. From cat-eyes to red lips, you go back in the past to add some drama to your look.',
-			link: 'http://www.myntra.com/retro-dreams?SRC=Lookgood6'
+		'Trendy': {
+			image: 'http://assets.myntassets.com/v1463138195/reactive/finder/11-9/Ranveer-answer3.1.jpg',
+			text: 'Be it white sneakers or colourful hats, ripped denims to eyewear styles; you’re abreast with the latest trends. Not just that, you embrace them like nobody’s business! Your friends look up to you for your sense of style and you almost always manage to nail even the trickiest of trends.',
+			link: 'http://www.myntra.com/abreast-latest-trends?SRC=Lookgood6'
 		},
-		'classic': {
-			image: 'http://assets.myntassets.com/v1462530280/radium/finder/4-29/makeup-style-answer4-classic-min.jpg',
-			text: 'Timeless is the word that best defines your style. While you love your make-up, you stick to all things classy and sophisticated. No breaking away from the norm for you. Always put together with soft colours and lined eyes; that’s you!',
-			link: 'http://www.myntra.com/classic-soft-colours-and-lined-eyes?SRC=Lookgood6'
-		}
 	}
 
 }

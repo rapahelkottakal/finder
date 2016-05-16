@@ -22,18 +22,21 @@ export default class ResultPage extends React.Component {
 			paddingBottom: 50,
 			lineHeight: '1.5',
 			marginTop: '-4px',
+			fontFamily:'sans-serif',
+			fontSize:15,
 			// textAlign: 'center',
 		}
 	}
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: '#f05367',
+			backgroundColor: '#000',
 			padding: '1px 20px',
 			textDecoration: 'none',
 			color: 'white',
 			textTransform: 'uppercase',
-			fontSize: 16
+			fontSize: 16,
+			fontFamily:'sans-serif'
 		}	
 	}
 

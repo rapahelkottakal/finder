@@ -26,10 +26,10 @@ export default class Question extends React.Component {
 		    top: 0,
 		    left: 0,
 		    width: '100%',
-		    backgroundColor: 'hsla(0, 100%, 100%,0.9)',
-		    // textAlign: 'center',
-		    fontSize: 20,
-		    color: '#f05367',
+		    backgroundColor: 'hsla(0, 0%, 0%,0.6)',
+		    // textAlign: 'center'
+		    fontSize: 15,
+		    color: '#fff',
 		    fontWeight: 600,
 		    textTransform: 'uppercase'
 		};

@@ -108,7 +108,7 @@ export default class Finder extends React.Component {
 		return {
 			minHeight: window.innerHeight,
 			backgroundColor: '#FFFFFF',
-		    backgroundImage: 'url("http://assets.myntassets.com/v1462530393/radium/finder/4-29/background-min.jpg")',
+		    backgroundImage: 'url("http://assets.myntassets.com/v1463042984/reactive/finder/11-9/Ranveer-background.jpg")',
 			position: 'absolute',
 			top: 0,
 			left: 0,
@@ -148,6 +148,7 @@ export default class Finder extends React.Component {
 					key = {i}
 					result={option.key}
 					image={option.image}
+					divider={option.divider}
 					text={option.text}
 					weight={this.props.data.qNa[this.state.questionNo].question.weight}
 					plain={this.props.data.qNa[this.state.questionNo].question.plain}

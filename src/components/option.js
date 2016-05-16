@@ -9,8 +9,8 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			borderBottom: '1px solid lightgray',
-			padding: '15px 30px'
+			// borderBottom: '1px solid lightgray',
+			padding: '10px 30px'
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -25,7 +25,7 @@ export default class Option extends React.Component {
 	getTextStyles() {
 		return {
 			textAlign: 'center',
-			fontSize: 20,
+			fontSize: 10,
 			color: 'black',
 			textTransform: 'uppercase',
 			marginTop: 15
@@ -54,11 +54,11 @@ export default class Option extends React.Component {
 			maxWidth: 250,
 			display: 'block',
 			margin: '0 auto',
-			width: '100%',
+			width: '65%',
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', 
+			_.assignIn(imgStyle, { borderRadius: '0%', 
 				// boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' 
 			} );
 		}
@@ -73,7 +73,9 @@ export default class Option extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
+				<img  src={this.props.divider} style={{ margin: '0% 0% 0px 25%'} } />
 				{this.getText()}
+
 			</div>
 		);
 	}
