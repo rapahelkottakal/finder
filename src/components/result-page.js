@@ -21,7 +21,7 @@ export default class ResultPage extends React.Component {
 			padding: '5px 20px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
-			marginTop: '-4px',
+			marginTop: '-5px',
 			fontFamily:'sans-serif',
 			fontSize:15,
 			// textAlign: 'center',
@@ -30,12 +30,12 @@ export default class ResultPage extends React.Component {
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: '#000',
-			padding: '1px 20px',
+			backgroundColor: '#62444e',
+			padding: '2px 7px',
 			textDecoration: 'none',
-			color: 'white',
+			color: '#FEC2BE',
 			textTransform: 'uppercase',
-			fontSize: 16,
+			fontSize: 15,
 			fontFamily:'sans-serif'
 		}	
 	}

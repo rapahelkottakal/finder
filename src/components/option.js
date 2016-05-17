@@ -54,7 +54,7 @@ export default class Option extends React.Component {
 			maxWidth: 250,
 			display: 'block',
 			margin: '0 auto',
-			width: '65%',
+			width: '80%',
 		}
 
 		if(!this.props.plain) {
@@ -73,7 +73,7 @@ export default class Option extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
-				<img  src={this.props.divider} style={{ margin: '0% 0% 0px 25%'} } />
+				<img  src={this.props.divider} style={{ margin: '10% 0% 0px 45%'} } />
 				{this.getText()}
 
 			</div>
