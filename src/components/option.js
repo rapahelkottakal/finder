@@ -73,7 +73,9 @@ export default class Option extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
+				{this.renderSection}
 				<img  src={this.props.divider} style={{ margin: '10% 0% 0px 45%'} } />
+				<div data={this.props.divider} s>
 				{this.getText()}
 
 			</div>
