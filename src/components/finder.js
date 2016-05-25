@@ -108,7 +108,7 @@ export default class Finder extends React.Component {
 		return {
 			minHeight: window.innerHeight,
 			backgroundColor: '#FFFFFF',
-		    backgroundImage: 'url("http://assets.myntassets.com/v1463476155/reactive/finder/17-05-16/celeb-makeup-background.jpg")',
+		    backgroundImage: 'url("http://assets.myntassets.com/v1464169453/reactive/finder/06-05-16/quiz-kangana-background.jpg")',
 			position: 'absolute',
 			top: 0,
 			left: 0,

@@ -30,10 +30,10 @@ export default class ResultPage extends React.Component {
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: '#62444e',
+			backgroundColor: '#000',
 			padding: '2px 7px',
 			textDecoration: 'none',
-			color: '#FEC2BE',
+			color: '#fff',
 			textTransform: 'uppercase',
 			fontSize: 15,
 			fontFamily:'sans-serif'
