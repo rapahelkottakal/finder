@@ -151,17 +151,17 @@ export default {
 		'Classic': {
 			image: 'http://assets.myntassets.com/v1464169408/reactive/finder/06-05-16/quiz-kangana-answer1.jpg',
 			text: 'Congratulations! You are a true classic beauty. Elegance is your middle name. You stand out from the crowd with your simple yet sophisticated fashion sense. Colours like black, white, off-white, navy blue are your favourites. Red lips, lined eyes and pumps is your signature look. In any given situation you remain calm and composed. It’s natural for people to respect your personality as you carry yourself effortlessly.',
-			link: 'http://www.myntra.com/sophisticated-fashion?SRC=Lookgood6'
+			link: 'http://www.myntra.com/sophisticated-fashion?SRC=Radium'
 		},
 		'Trendy': {
 			image: 'http://assets.myntassets.com/v1464169408/reactive/finder/06-05-16/quiz-kangana-answer2.jpg',
 			text: 'Congratulations! You are the fashionista who knows her game well. You’re always the first one to embrace a new trend and people look forward to your outfits. Comfort is the key to your fashion statement. With little touches to your trendy look you create your own unique style. You are friendly and easy-going',
-			link: 'http://www.myntra.com/embrace-a-new-trend?SRC=Lookgood6'
+			link: 'http://www.myntra.com/embrace-a-new-trend?SRC=Radium'
 		},
 		'Quirky': {
 			image: 'http://assets.myntassets.com/v1464169408/reactive/finder/06-05-16/quiz-kangana-answer3.jpg',
 			text: 'Congratulations! You are bold and beautiful and the most adventurous amongst them all. You love to experiment with various trends but you never miss out on making them your own. A loud colour or a different hairdo - you carry any style with elan. People may think of you as different but trust us when we say they also envy you.',
-			link: 'http://www.myntra.com/most-adventurous?SRC=Lookgood6'
+			link: 'http://www.myntra.com/most-adventurous?SRC=Radium'
 		},
 	}
 
