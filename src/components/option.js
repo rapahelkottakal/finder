@@ -10,7 +10,8 @@ export default class Option extends React.Component {
 	getStyles() {
 		let styles = {
 			borderBottom: '1px solid lightgray',
-			padding: '15px 30px'
+			padding: '15px 0px',
+			textAlign: 'center'
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -25,8 +26,9 @@ export default class Option extends React.Component {
 	getTextStyles() {
 		return {
 			textAlign: 'center',
-			fontSize: 16,
-			color: 'white',
+			fontSize: 18,
+			fontWeight:'800',
+			color: '#0E4275',
 			textTransform: 'uppercase'
 		}
 	}
@@ -54,9 +56,9 @@ export default class Option extends React.Component {
 			marginBottom: 10
 		}
 
-		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
-		}
+		// if(!this.props.plain) {
+		// 	_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+		// }
 
 
 		return(

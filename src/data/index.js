@@ -9,30 +9,30 @@ export default {
 
 		{
 			question: {
-				text: 'What is your favourite summer style?',
-				weight: 3
+				text: 'Pick a music genre',
+				weight: 3.1
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-1.jpg',
-					text: 'Shift dress and thigh-high gladiators'
+					key: '00s',
+					image: 'http://assets.myntassets.com/v1464254242/reactive/finder/16-05-16/fashion-decade-question1-opt1.png',
+					text: 'Hip hop'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-1-opt-2.jpg',
-					text: 'Sundress and sneakers'
+					key: '70s',
+					image: 'http://assets.myntassets.com/v1464254243/reactive/finder/16-05-16/fashion-decade-question1-opt2.png',
+					text: 'Rock'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-3.jpg',
-					text: 'Midi skirts with crop tops'
+					key: '80s',
+					image: 'http://assets.myntassets.com/v1464254243/reactive/finder/16-05-16/fashion-decade-question1-opt3.png',
+					text: 'Metal'
 
 				},
 				{
-					key: 'nyc',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-4.jpg',
-					text: 'Playsuit with a floppy hat'
+					key: '90s',
+					image: 'http://assets.myntassets.com/v1464254243/reactive/finder/16-05-16/fashion-decade-question1-opt4.png',
+					text: 'Pop'
 
 				}
 
@@ -41,32 +41,32 @@ export default {
 
 		{
 			question: {
-				text: 'What is your go-to accessory?',
-				weight: 3.5
+				text: 'Which hairstyle suits you best?',
+				weight: 4.5
 			},
 			options: [
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-1.jpg',
-					text: 'High heels'
+					key: '70s',
+					image: 'http://assets.myntassets.com/v1464254668/reactive/finder/16-05-16/fashion-decade-question2-opt1.png',
+					text: 'Shaggy hair'
 
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-2.jpg',
-					text: 'Scarves'
+					key: '90s',
+					image: 'http://assets.myntassets.com/v1464254668/reactive/finder/16-05-16/fashion-decade-question2-opt2.png',
+					text: 'Middle part bowl cut'
 
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-3.jpg',
-					text: 'Sling bags'
+					key: '80s',
+					image: 'http://assets.myntassets.com/v1464254668/reactive/finder/16-05-16/fashion-decade-question2-opt3.png',
+					text: 'Long hair'
 
 				},
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-4-min.jpg',
-					text: 'Round-rimmed sunglasses'
+					key: '00s',
+					image: 'http://assets.myntassets.com/v1464254668/reactive/finder/16-05-16/fashion-decade-question2-opt4.png',
+					text: 'Spiked hair'
 
 				}
 
@@ -75,30 +75,30 @@ export default {
 
 		{
 			question: {
-				text: "Pick your favourite pattern from below.",
-				weight: 7.2
+				text: "What’s your favourite denim style?",
+				weight: 7.5
 			},
 			options: [
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-1.jpg',
-					text: 'Bold checks'
+					key: '70s',
+					image: 'http://assets.myntassets.com/v1464254850/reactive/finder/16-05-16/fashion-decade-question3-opt1.png',
+					text: 'Flared Jeans'
 
 				},
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-2.jpg',
-					text: 'Jail stripes'
+					key: '00s',
+					image: 'http://assets.myntassets.com/v1464254850/reactive/finder/16-05-16/fashion-decade-question3-opt2.png',
+					text: 'Distressed jeans'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-3.jpg',
-					text: 'Leopard print'
+					key: '90s',
+					image: 'http://assets.myntassets.com/v1464254850/reactive/finder/16-05-16/fashion-decade-question3-opt3.png',
+					text: 'Baggy Jeans'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-4.jpg',
-					text: 'Florals'
+					key: '80s',
+					image: 'http://assets.myntassets.com/v1464254850/reactive/finder/16-05-16/fashion-decade-question3-opt4.png',
+					text: 'Washed Jeans'
 				}
 
 			]
@@ -106,29 +106,29 @@ export default {
 
 		{
 			question: {
-				text: "Which picture from below makes your stomach growl?",
-				weight: 1
+				text: "What’s your go-to fashion accessory? ",
+				weight: 6.5
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-1.jpg',
-					text: 'Strawberry crepes'
+					key: '80s',
+					image: 'http://assets.myntassets.com/v1464254974/reactive/finder/16-05-16/fashion-decade-question4-opt1.png',
+					text: 'Fedora hat'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-2.jpg',
-					text: 'Pepperoni pizza'
+					key: '70s',
+					image: 'http://assets.myntassets.com/v1464254974/reactive/finder/16-05-16/fashion-decade-question4-opt2.png',
+					text: 'Round rimmed sunglasses'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-4-opt-3.jpg',
-					text: 'Fish and chips'
+					key: '90s',
+					image: 'http://assets.myntassets.com/v1464254974/reactive/finder/16-05-16/fashion-decade-question4-opt3.png',
+					text: 'Baseball cap'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-4-opt-4.jpg',
-					text: 'Hotdogs'
+					key: '00s',
+					image: 'http://assets.myntassets.com/v1464254974/reactive/finder/16-05-16/fashion-decade-question4-opt4.png',
+					text: 'Leather strap bracelets'
 				}
 
 			]
@@ -136,26 +136,29 @@ export default {
 
 		{
 			question: {
-				text: 'Pick a word that best describes your personal style.',
-				weight: 5.25,
-				plain: true
+				text: 'What’s your favourite pastime?',
+				weight: 3.5,
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-5-opt-1.png',
+					key: '80s',
+					image: 'http://assets.myntassets.com/v1464255102/reactive/finder/16-05-16/fashion-decade-question5-opt1.png',
+					text: 'Playing outdoor sports'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-2.png',
+					key: '90s',
+					image: 'http://assets.myntassets.com/v1464255102/reactive/finder/16-05-16/fashion-decade-question5-opt2.png',
+					text: 'Playing video games'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-3.png',
+					key: '70s',
+					image: 'http://assets.myntassets.com/v1464255102/reactive/finder/16-05-16/fashion-decade-question5-opt3.png',
+					text: 'Playing the guitar'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-4.png',
+					key: '00s',
+					image: 'http://assets.myntassets.com/v1464255102/reactive/finder/16-05-16/fashion-decade-question5-opt4.png',
+					text: 'Surfing the internet'
 				},
 
 			]
@@ -164,25 +167,25 @@ export default {
 	],
 
 	results: {
-		'london': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-london.jpg',
-			text: 'Congratulations! Your wardrobe is a perfect mix of trendy and classic pieces. Just a pair of nude pumps or a crop top is all you need to look like a diva. You are also not afraid to embrace the changes in fashion trends every now and then!',
-			link: 'http://www.myntra.com/london-trendy-and-classic-pieces?SRC=Lookgood6'
+		'70s': {
+			image: 'http://assets.myntassets.com/v1464255312/reactive/finder/16-05-16/fashion-decade-answer1.jpg',
+			text: 'You belong the disco era - touted as one of the most fashionable decades. From floppy collars to bell bottoms, floral shirts to plaid jackets, your style has glimpses of everything that’s retro. Only you can carry off round lens sunglasses like a boss!',
+			link: 'http://www.myntra.com/the-groovy-70s?SRC=Radium'
 		},
-		'paris': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-paris.jpg',
-			text: 'Congratulations! Your personal style resembles that of French belles on the streets of Paris. Stripes are an important part of your wardrobe. And so is the colour black. Fashion comes naturally to you as you never compromise on your elegance and comfort.',
-			link: 'http://www.myntra.com/paris-french-belles-on-streets?SRC=Lookgood6'
+		'80s': {
+			image: 'http://assets.myntassets.com/v1464255312/reactive/finder/16-05-16/fashion-decade-answer2.jpg',
+			text: 'You are a power dressing icon who loves suiting up! The other essentials in your wardrobe include contrasting collar shirts, leather pants, bright colours and graphic patterns. Fedora hats were made for you and you look best in long locks. Suspenders making a comeback is the best news you have heard in a long time.',
+			link: 'http://www.myntra.com/the-retro-80s?SRC=Radium'
 		},
-		'ny': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-new-york.jpg',
-			text: 'Congratulations! You dress like the true-blue New Yorker! You believe in yourself and your style reflects it. You never go back from being experimental and thus, you create your own fashion statement. High heels are something that you never compromise with!',
-			link: 'http://www.myntra.com/true-blue-new-yorker?SRC=Lookgood6'
+		'90s': {
+			image: 'http://assets.myntassets.com/v1464255312/reactive/finder/16-05-16/fashion-decade-answer3.jpg',
+			text: 'Hello 90s boy! One to easily carry off baggy trousers at a business meeting, be it at office or a party, you like keeping everything casual chic. You swear by your oversized hoodies and you dont mind sporting a middle-parted hairstyle inspired by the pop stars of the decade. You are also a potential candidate for the president of the "Baseball cap fan club!',
+			link: 'http://www.myntra.com/the-casual-90s?SRC=Radium'
 		},
-		'milan': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-milan.jpg',
-			text: 'Congratulations! Milan is your inspiration. Although you go for more laid back looks, trainers are a big no-no outside the gym. Printed scarves are one accessory that is a staple for your wardrobe.',
-			link: 'http://www.myntra.com/milan-your-inspiration?SRC=Lookgood6'
+		'00s': {
+			image: 'http://assets.myntassets.com/v1464255312/reactive/finder/16-05-16/fashion-decade-answer4.jpg',
+			text: 'You are as chic as they come. Tailored shirts, slim fit trousers, ripped jeans, sleek hair define you. With one eye on the latest fashion fads, your style also features the best of the decades gone by. You love your accessories and wouldn’t shy away from sporting jewellery or oversized sunglasses.',
+			link: 'http://www.myntra.com/the-trendy-2000s?SRC=Radium'
 		}
 	}
 
