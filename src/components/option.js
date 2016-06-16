@@ -9,9 +9,21 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			borderBottom: '1px solid lightgray',
-			padding: '15px 0px',
-			textAlign: 'center'
+			borderBottom: '2px solid rgb(249, 107, 8)',
+			padding: '5% 0%',
+			textAlign: 'center',
+			margin: '0% 7%;',
+			display:'flex',
+			margin: '0% 7%'
+			
+		}
+
+		// console.log(this.props.lastOption);
+
+		if (this.props.lastOption) {
+			_.assignIn(styles, {
+				borderBottom: 'none',
+			})
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -19,17 +31,28 @@ export default class Option extends React.Component {
 		if (this.props.loading) {
 			_.assignIn(styles, animate.transform('translateY('+ window.innerHeight +'px)'));
 		}
+		// if(this.options.key[2]){
+		// 	_.assignIn(styles, border('none');
 
+		// }
+		// if (this.props.Option[this.key(2)]){
+
+		// 	add.class{
+		// 		border:none;
+		// 	}
+		// }
+// console.log(this.option);
 		return styles;
+
 	}
 
 	getTextStyles() {
 		return {
-			textAlign: 'center',
-			fontSize: 18,
-			fontWeight:'800',
+			fontSize: 15,
 			color: '#0E4275',
-			textTransform: 'uppercase'
+			width:'51%',
+			marginTop: '10%',
+
 		}
 	}
 
@@ -53,7 +76,6 @@ export default class Option extends React.Component {
 	render() {
 		let imgStyle = {
 			maxWidth: '100%',
-			marginBottom: 10
 		}
 
 		// if(!this.props.plain) {

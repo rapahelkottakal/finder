@@ -27,8 +27,10 @@ export default class Question extends React.Component {
 		    left: 0,
 		    width: '100%',
 		    backgroundColor: '#fff',
-		    textAlign: 'center',
-		    fontSize: 18,
+		    // textAlign: 'center',
+		    lineHeight:'1.4',
+
+		    fontSize: 16,
 		    color: 'rgb(14, 66, 117)',
 		    fontWeight:'800',
 		    textTransform: 'uppercase'

@@ -134,27 +134,35 @@ export default class Finder extends React.Component {
 
 		let optionsArray = this.props.data.qNa[this.state.questionNo].options;
 
-		let options = optionsArray.map((option,i) => {
-			return (
-				<Option					
-					imageLoaded={this.imageLoaded.bind(this)}
-					clickit = {this.updateQuestionNo.bind(this)}
-					
-					loading={this.state.loading}
+			let options = optionsArray.map((option,i) => {
 
-					openOverlay={this.openOverlay.bind(this)}
-					closeOverlay={this.closeOverlay.bind(this)}
+				let lastOption = false;
 
-					key = {i}
-					result={option.key}
-					image={option.image}
-					text={option.text}
-					weight={this.props.data.qNa[this.state.questionNo].question.weight}
-					plain={this.props.data.qNa[this.state.questionNo].question.plain}
-				/>
-			);
-		});
+				if (i==optionsArray.length-1) {
+					lastOption = true;	
+				}
+				return (
+					<Option					
+						imageLoaded={this.imageLoaded.bind(this)}
+						clickit = {this.updateQuestionNo.bind(this)}
+						
+						loading={this.state.loading}
 
+						openOverlay={this.openOverlay.bind(this)}
+						closeOverlay={this.closeOverlay.bind(this)}
+
+						key = {i}
+						result={option.key}
+						image={option.image}
+						text={option.text}
+						weight={this.props.data.qNa[this.state.questionNo].question.weight}
+						plain={this.props.data.qNa[this.state.questionNo].question.plain}
+						lastOption={lastOption}
+					/>
+				);
+			});
+
+		// console.log(props.length);
 		return options;
 
 

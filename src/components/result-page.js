@@ -19,18 +19,19 @@ export default class ResultPage extends React.Component {
 			backgroundColor: '#FFF',
 			padding: '5px 20px',
 			paddingBottom: 50,
-			lineHeight: '1.5',
+			lineHeight: '1.4',
 			marginTop: '-4px',
-			color:'#0E4274'
+			color:'#0E4274',
+			fontSize: '14px',
 		}
 	}
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: '#0E4274',
+			backgroundColor: 'rgb(249, 107, 8)',
 			padding: '1px 20px',
 			textDecoration: 'none',
-			color: '#4EFFD9',
+			color: 'rgb(14, 66, 116)',
 			textTransform: 'uppercase',
 			fontSize: 16
 		}	
