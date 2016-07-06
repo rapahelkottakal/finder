@@ -95,17 +95,17 @@ export default {
 			options: [
 				{
 					key: 'guru',
-					image: 'http://assets.myntassets.com/v1465888295/reactive/finder/27-05-16/style-expert-ques5-opt1.png',
+					image: 'http://assets.myntassets.com/v1465888248/reactive/finder/27-05-16/style-expert-ques4-opt1.png',
 					text: 'Oxfords'
 				},
 				{
 					key: 'expert',
-					image: 'http://assets.myntassets.com/v1465888295/reactive/finder/27-05-16/style-expert-ques5-opt2.png',
+					image: 'http://assets.myntassets.com/v1465888248/reactive/finder/27-05-16/style-expert-ques4-opt2.png',
 					text: 'Brogues'
 				},
 				{
 					key: 'freshman',
-					image: 'http://assets.myntassets.com/v1465888294/reactive/finder/27-05-16/style-expert-ques5-opt3.png',
+					image: 'http://assets.myntassets.com/v1465888248/reactive/finder/27-05-16/style-expert-ques4-opt3.png',
 					text: 'Mocassins'
 				},
 
@@ -120,17 +120,17 @@ export default {
 			options: [
 				{
 					key: 'freshman',
-					image: 'http://assets.myntassets.com/v1465888248/reactive/finder/27-05-16/style-expert-ques4-opt1.png',
+					image: 'http://assets.myntassets.com/v1465888295/reactive/finder/27-05-16/style-expert-ques5-opt1.png',
 					text: 'I am not much of a shopper anyway.'
 				},
 				{
 					key: 'guru',
-					image: 'http://assets.myntassets.com/v1465888248/reactive/finder/27-05-16/style-expert-ques4-opt2.png',
+					image: 'http://assets.myntassets.com/v1465888295/reactive/finder/27-05-16/style-expert-ques5-opt2.png',
 					text: 'Whenever I see something worthy to buy, frequency doesn\'t matter.'
 				},
 				{
 					key: 'expert',
-					image: 'http://assets.myntassets.com/v1465888248/reactive/finder/27-05-16/style-expert-ques4-opt3.png',
+					image: 'http://assets.myntassets.com/v1465888294/reactive/finder/27-05-16/style-expert-ques5-opt3.png',
 					text: 'Whenever there is an occasion.'
 				},
 
