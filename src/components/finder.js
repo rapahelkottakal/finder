@@ -9,6 +9,8 @@ import Option from './option';
 import Question from './question';
 import ResultPage from './result-page';
 
+import Ga from '../functions/Ga';
+
 export default class Finder extends React.Component {
 
 	constructor(props) {
@@ -63,6 +65,7 @@ export default class Finder extends React.Component {
 			resultOpts[key] = 0;
 		});
 
+		Ga({ label: 'User clicked play again' });
 
 		this.setState({ resultPage: false, questionNo: 0, resultOpts });
 
@@ -95,6 +98,14 @@ export default class Finder extends React.Component {
 			});
 			
 		} else {
+
+			let resultPoints = _.values(this.state.resultOpts);
+
+			let maxResultKey = _.findKey( this.state.resultOpts, function(result) {
+				return result == _.max(resultPoints)
+			});
+			// console.log(maxResultKey);
+			Ga({ label: 'Result - ' + maxResultKey });
 			this.setState({
 				resultPage: true
 			});

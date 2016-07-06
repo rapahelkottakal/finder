@@ -1,8 +1,13 @@
 import React from 'react';
 import ImageLoader from 'react-imageloader';
 
+import Ga from '../functions/Ga';
 
 export default class ResultPage extends React.Component {
+
+	handelShopBtnClick(e) {
+		Ga({ label: e.target.closest('a').href });
+	}
 
 	clickHandler() {
 
@@ -67,7 +72,7 @@ export default class ResultPage extends React.Component {
 				<div style= {this.resultTextStyle()}>
 					<p>{this.props.text}</p>
 
-					<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
+					<a onClick={this.handelShopBtnClick} href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
 					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
 				</div>
 			</div>
