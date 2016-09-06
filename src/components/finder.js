@@ -214,11 +214,15 @@ export default class Finder extends React.Component {
 		} else {
 
 			let question = this.props.data.qNa[this.state.questionNo].question.text;
+			let imgr = this.props.data.qNa[this.state.questionNo].question.imgr;
 
+
+				console.log(imgr);
 			return(
 				<div style={this.getContainerStyles()}>
 					<div style={this.getWrapperStyles()}>
 						<Question text={question} loading={this.state.loading} />
+						<imgr src={imgr} />
 						
 						{ this.createOptions() }
 						

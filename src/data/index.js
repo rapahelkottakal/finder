@@ -9,7 +9,9 @@ export default {
 
 		{
 			question: {
+				imgr:'http://www.ricoh.com/r_dc/cx/cx1/img/sample_04.jpg',
 				text: 'What is your favourite summer style?',
+				some:'Hello',
 				weight: 3
 			},
 			options: [
@@ -41,6 +43,7 @@ export default {
 
 		{
 			question: {
+				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_05.jpg',
 				text: 'What is your go-to accessory?',
 				weight: 3.5
 			},
@@ -75,6 +78,7 @@ export default {
 
 		{
 			question: {
+				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_03.jpg',
 				text: "Pick your favourite pattern from below.",
 				weight: 7.2
 			},
@@ -106,6 +110,7 @@ export default {
 
 		{
 			question: {
+				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_02.jpg',
 				text: "Which picture from below makes your stomach growl?",
 				weight: 1
 			},
@@ -136,6 +141,7 @@ export default {
 
 		{
 			question: {
+				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_01.jpg',
 				text: 'Pick a word that best describes your personal style.',
 				weight: 5.25,
 				plain: true

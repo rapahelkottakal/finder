@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-
+import ImageLoader from 'react-imageloader';
 import animate from '../helpers/animate';
 
 export default class Question extends React.Component {
@@ -43,10 +43,12 @@ export default class Question extends React.Component {
 	}
 
 	render() {
+		console.log(this.props.imgr);
 		return(
 			<div className="question-wrapper" style={this.getStyles()} ref="question" >
 				<div className="question-text" style={{ padding: '20px 15px', paddingBottom: 10}}>{this.props.text}</div>
 			</div>
+			
 		);
 	}
 }
