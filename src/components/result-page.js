@@ -20,24 +20,44 @@ export default class ResultPage extends React.Component {
 		this.props.closeOverlay();
 	}
 
+	getBgimg(){
+		console.log(this.props.imgbr);
+		return{
+			backgroundImage: 'url(' + this.props.imgbr + ')',
+		}
+	}
+
 	resultTextStyle(){
 		return{
-			backgroundColor: '#F2F1F6',
 			padding: '5px 20px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
-			marginTop: '-4px'
+			marginTop: '-10px',
+			color:'#fff',
+			fontSize:'14'
+		}
+	}
+		resultTitleStyle(){
+		return{
+			    padding: '10px 2px 5px 2px',
+			    lineHeight: '1.5',
+			    color: 'rgb(11, 69, 107)',
+			    textAlign: 'center',
+			    fontSize: '20px',
+			    fontWeight: '800',
 		}
 	}
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: 'black',
 			padding: '1px 20px',
-			textDecoration: 'none',
-			color: '#fff',
-			textTransform: 'uppercase',
-			fontSize: 16
+    textDecoration: 'none',
+    color: 'rgb(11, 69, 107)',
+    fontSize: '16px',
+    textAlign: 'center',
+    marginLeft: '30%',
+    borderBottom: '1px solid #0d526f',
+    fontWeight: '800'
 		}	
 	}
 
@@ -48,33 +68,34 @@ export default class ResultPage extends React.Component {
 			bottom: 0,
 			width: '100%',
 			textAlign: 'center',
-			backgroundColor: '#61B3Db',
 			color: '#fff',
 			textTransform: 'uppercase',
-			fontSize: 16,
+			fontSize: 14,
 			cursor: 'pointer'
 		}
 	}
 
 
 	render() {
-
+// console.log(this);
 		return(
-			<div>
-				<ImageLoader
-					src={this.props.image}
-					imgProps={{ style: {width: '100%'} }}
-					wrapper={React.DOM.div}
-					onLoad={this.props.imageLoaded}>
-					Image load failed!
-				</ImageLoader>
-				<div style= {this.resultTextStyle()}>
-					<p>{this.props.text}</p>
+				<div>
+					<ImageLoader
+						src={this.props.image}
+						imgProps={{ style: {width: '100%'} }}
+						wrapper={React.DOM.div}
+						onLoad={this.props.imageLoaded}>
+						Image load failed!
+					</ImageLoader>
+					<div style={this.resultTitleStyle()}>{this.props.title}</div>
+					<div style= {this.resultTextStyle()}>
+						
+						<p>{this.props.text}</p>
 
-					<a onClick={this.handelShopBtnClick} href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
-					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
+						<a onClick={this.handelShopBtnClick} href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now ></a>
+						<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
+					</div>
 				</div>
-			</div>
 		);
 	}
 }

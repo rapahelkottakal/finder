@@ -9,8 +9,11 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			borderBottom: '1px solid lightgray',
-			padding: '15px 30px'
+			background:'#fff',
+			padding: '15px 30px',
+			marginBottom:'5px',
+			cursor: 'pointer',
+
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -22,11 +25,19 @@ export default class Option extends React.Component {
 		return styles;
 	}
 
+	getBorder(){
+
+		return{
+
+			border:'1px solid #000',
+		}
+	}
+
 	getTextStyles() {
 		return {
 			textAlign: 'center',
 			fontSize: 16,
-			color: 'white',
+			color: 'black',
 			textTransform: 'uppercase'
 		}
 	}
@@ -41,7 +52,7 @@ export default class Option extends React.Component {
 
 	clickHandler() {
 		setTimeout(()=>{
-			this.props.clickit(this.props.result, this.props.weight);
+			this.props.clickit(this.props.result, 1);
 			window.scrollTo(0, 0);
 		}, 750);
 		this.props.closeOverlay();
@@ -49,26 +60,14 @@ export default class Option extends React.Component {
 
 
 	render() {
-		let imgStyle = {
-			maxWidth: '100%',
-			marginBottom: 10
-		}
-
-		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
-		}
 
 
 		return(
-			<div className="option-text" onClick={this.clickHandler.bind(this)} style={this.getStyles()}>
-				<ImageLoader
-					src={this.props.image}
-					imgProps={{ style: imgStyle }}
-					wrapper={React.DOM.div}
-					onLoad={this.props.imageLoaded}>
-					Image load failed!
-				</ImageLoader>
-				{this.getText()}
+			<div class="wrapper_options">
+				<div className="option-text" onClick={this.clickHandler.bind(this)} style={this.getStyles()}>
+				
+					{this.getText()}
+				</div>
 			</div>
 		);
 	}

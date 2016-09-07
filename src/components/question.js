@@ -21,16 +21,16 @@ export default class Question extends React.Component {
 	getStyles() {
 
 		let styles = {
-			position: 'fixed',
 		    zIndex: 999,
 		    top: 0,
 		    left: 0,
 		    width: '100%',
-		    backgroundColor: 'hsla(0,0%,0%,0.6)',
-		    // textAlign: 'center',
+		    marginBottom:'20px',
+		    textAlign: 'center',
 		    fontSize: 18,
-		    color: 'white',
-		    textTransform: 'uppercase'
+		    color: '#fff',
+		    textTransform: 'uppercase',
+		    border: '1px solid #000',
 		};
 		
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -43,10 +43,15 @@ export default class Question extends React.Component {
 	}
 
 	render() {
-		console.log(this.props.imgr);
+		// console.log(this.props.imgsrc);
 		return(
 			<div className="question-wrapper" style={this.getStyles()} ref="question" >
-				<div className="question-text" style={{ padding: '20px 15px', paddingBottom: 10}}>{this.props.text}</div>
+				<ImageLoader
+					src={this.props.imgsrc}
+					imgProps={{ style: {width: '100%', borderBottom:'1px solid #000'} }}
+				></ImageLoader>
+				<div className="question-text" style={{fontSize:'16px', fontWeight:'800', padding:'5% 3%'}}>{this.props.text}</div>
+
 			</div>
 			
 		);

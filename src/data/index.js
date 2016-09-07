@@ -8,160 +8,141 @@ export default {
 	qNa: [
 
 		{
+			background:{
+
+				imgbrg:'http://assets.myntassets.com/assets/images/lookbook/2016/9/6/11473161530086-fitness11.png'
+			},
+
 			question: {
-				imgr:'http://www.ricoh.com/r_dc/cx/cx1/img/sample_04.jpg',
-				text: 'What is your favourite summer style?',
-				some:'Hello',
-				weight: 3
+				imgr:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512550-fitness1.png',
+				text: 'How many days in a week do you workout?',
+				
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-1.jpg',
-					text: 'Shift dress and thigh-high gladiators'
+					key: 'track',
+					text: '2-3 days'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-1-opt-2.jpg',
-					text: 'Sundress and sneakers'
+					key: 'freak',
+					text: 'All days in a week'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-3.jpg',
-					text: 'Midi skirts with crop tops'
+					key: 'lazy',
+					text: 'Workout? Does walking to the fridge and back count?'
 
 				},
-				{
-					key: 'nyc',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-4.jpg',
-					text: 'Playsuit with a floppy hat'
-
-				}
 
 			]
 		},
 
 		{
+			background:{
+
+				imgbrg:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473231211526-fitness22.png'
+			},
 			question: {
-				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_05.jpg',
-				text: 'What is your go-to accessory?',
-				weight: 3.5
+				imgr:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512533-fitness2.png',
+				text: 'What’s your typical breakfast?',
+				 
 			},
 			options: [
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-1.jpg',
-					text: 'High heels'
+					key: 'freak',
+					text: 'Cereal and fruits'
 
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-2.jpg',
-					text: 'Scarves'
+					key: 'track',
+					text: 'Pancakes and eggs'
 
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-3.jpg',
-					text: 'Sling bags'
+					key: 'lazy',
+					text: 'All the desi stuff - Paratha, dosa, samosa.'
 
 				},
-				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-4-min.jpg',
-					text: 'Round-rimmed sunglasses'
-
-				}
 
 			]
 		},
 
 		{
+			background:{
+
+				imgbrg:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473231211515-fitness33.png'
+			},
 			question: {
-				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_03.jpg',
-				text: "Pick your favourite pattern from below.",
-				weight: 7.2
+				imgr:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512517-fitness3.png',
+				text: "Given a choice, would you take stairs instead of the elevator?",
+				 
 			},
 			options: [
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-1.jpg',
-					text: 'Bold checks'
+					key: 'freak',
+					text: 'Always'
 
 				},
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-2.jpg',
-					text: 'Jail stripes'
+					key: 'track',
+					text: 'Sometimes'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-3.jpg',
-					text: 'Leopard print'
+					key: 'lazy',
+					text: 'Oh! Please. Elevator, any day!'
 				},
-				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-4.jpg',
-					text: 'Florals'
-				}
 
 			]
 		},
 
 		{
+			background:{
+
+				imgbrg:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473231211489-fitness44.png'
+			},
 			question: {
-				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_02.jpg',
-				text: "Which picture from below makes your stomach growl?",
-				weight: 1
+				imgr:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512501-fitness4.png',
+				text: "What is your favourite health drink?",
+				 
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-1.jpg',
-					text: 'Strawberry crepes'
+					key: 'track',
+					text: 'Smoothies'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-2.jpg',
-					text: 'Pepperoni pizza'
+					key: 'lazy',
+					text: 'Protein shake'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-4-opt-3.jpg',
-					text: 'Fish and chips'
+					key: 'freak',
+					text: 'Is beer healthy?'
 				},
-				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-4-opt-4.jpg',
-					text: 'Hotdogs'
-				}
 
 			]
 		},
 
 		{
+			background:{
+
+				imgbrg:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473231211477-fitness55.png'
+			},
 			question: {
-				imgsr:'https://www.ricoh.com/r_dc/cx/cx1/img/sample_01.jpg',
-				text: 'Pick a word that best describes your personal style.',
-				weight: 5.25,
-				plain: true
+				imgr:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512481-fitness5.png',
+				text: 'You don’t have a car or a bike, and you have to go to your friend’s house which is a 15 min walk. What do you do?',
+				
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-5-opt-1.png',
-				},
+					key: 'lazy',
+					text:'Call up people who can give you a ride.',
+					},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-2.png',
-				},
+					key: 'track',
+					text:'Run to catch the bus.',
+					},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-3.png',
-				},
-				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-4.png',
+					key: 'freak',
+					text:'Use those legs and walk it.',
 				},
 
 			]
@@ -170,26 +151,30 @@ export default {
 	],
 
 	results: {
-		'london': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-london.jpg',
-			text: 'Congratulations! Your wardrobe is a perfect mix of trendy and classic pieces. Just a pair of nude pumps or a crop top is all you need to look like a diva. You are also not afraid to embrace the changes in fashion trends every now and then!',
+
+		'lazy': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512462-fitness6.png',
+			title:'Hello Mr.lazy bones!',
+			text: 'You are not in great shape and you think you’ve got no time for a workout. You rather spend time on netflix and chill. All you do is look at people who are fit and wish you were one of them. Stop wishing and start gyming! But first make sure you have the right fitness gear to go with. Get your hands on the coolest activewear collection available on Myntra. ',
 			link: 'http://www.myntra.com/london-trendy-and-classic-pieces?SRC=Lookgood6'
 		},
-		'paris': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-paris.jpg',
-			text: 'Congratulations! Your personal style resembles that of French belles on the streets of Paris. Stripes are an important part of your wardrobe. And so is the colour black. Fashion comes naturally to you as you never compromise on your elegance and comfort.',
+		'track': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512443-fitness7.png',
+			title:'You are on the right track',
+			text: 'You are the latest kid on the block to be hit with the fitness bug. We say, it’s a great start but consistency is the key. Time to pick yourself, be up for the challenge and increase the time you give for your workout. Small tweaks to your diet and the right collection of fitness gear is what you need to achieve your fitness goals. Get your hands on the coolest activewear collection available on Myntra.',
 			link: 'http://www.myntra.com/paris-french-belles-on-streets?SRC=Lookgood6'
 		},
-		'ny': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-new-york.jpg',
-			text: 'Congratulations! You dress like the true-blue New Yorker! You believe in yourself and your style reflects it. You never go back from being experimental and thus, you create your own fashion statement. High heels are something that you never compromise with!',
+		'freak': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473229512434-fitness8.png',
+			title:'We’ve got a fitness freak here',
+			text: 'You are a pro! You take your fitness seriously and your day is incomplete without an intense workout session. 20 squats & 30 crunches? You say “Bring it on!”. You also keep a close watch on what you eat. Keep up the good work and try to challenge yourself everyday. Trying your hand at new workout styles is not a bad idea too. But why have the same old workout gear? Time for an upgrade! Get your hands on the coolest activewear collection available on Myntra.',
 			link: 'http://www.myntra.com/true-blue-new-yorker?SRC=Lookgood6'
 		},
-		'milan': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-milan.jpg',
-			text: 'Congratulations! Milan is your inspiration. Although you go for more laid back looks, trainers are a big no-no outside the gym. Printed scarves are one accessory that is a staple for your wardrobe.',
-			link: 'http://www.myntra.com/milan-your-inspiration?SRC=Lookgood6'
+
+		background :{ 
+			imgbr:'http://assets.myntassets.com/assets/images/lookbook/2016/9/7/11473231211448-fitness88.png'
 		}
+	
 	}
 
 }

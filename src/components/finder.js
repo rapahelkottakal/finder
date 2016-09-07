@@ -25,7 +25,7 @@ export default class Finder extends React.Component {
 		this.state = {
 			totalQuestions: props.data.qNa.length,
 			questionNo: 0,
-			loading: true,
+			loading: false,
 			loadedImgs: 0,
 			resultPage: false,
 			resultOpts
@@ -77,7 +77,7 @@ export default class Finder extends React.Component {
 	}
 
 	closeOverlay() {
-		this.setState({ loading: true });
+		this.setState({ loading: false });
 		
 	}
 
@@ -117,26 +117,43 @@ export default class Finder extends React.Component {
 	}
 
 	getContainerStyles() {
+		// console.log(this.props.data.results.background);	
+// console.log(this.props.data.results.background);
+		let brgimg = this.props.data.qNa[this.state.questionNo].background.imgbrg;
 		return {
+	
 			minHeight: window.innerHeight,
-		    backgroundImage: 'url("http://assets.myntassets.com/v1461838173/reactive/finder/4-27/background.jpg")',
-			position: 'absolute',
+		    backgroundImage: 'url(' + brgimg + ')',
+
+			// position: 'absolute',
 			top: 0,
 			left: 0,
-			width: '100%',
-			backgroundRepeat: 'no-repeat',
-			backgroundPosition: 'top center',
-			backgroundSize: 'cover',
-			backgroundAttachment: 'fixed'
+			width: '100%'
 		}
 	}
+	getContainerStyles1() {
+		console.log(this.props.data);
 
+		let brgimg1 = this.props.data.results.background.imgbr;
+		return {
+	
+			minHeight: window.innerHeight,
+		    backgroundImage: 'url(' + brgimg1 + ')',
+
+			// position: 'absolute',
+			top: 0,
+			left: 0,
+			width: '100%'
+		}
+	}
 	getWrapperStyles() {
 		return {
 			maxWidth: 360,
 			margin: '0 auto',
-			paddingTop: 100,
-			paddingBottom: 1
+			
+			paddingBottom: 1,
+			paddingRight:'5%',
+			paddingLeft:'5%',
 		}
 	}
 
@@ -160,6 +177,7 @@ export default class Finder extends React.Component {
 					result={option.key}
 					image={option.image}
 					text={option.text}
+					title={option.title}
 					weight={this.props.data.qNa[this.state.questionNo].question.weight}
 					plain={this.props.data.qNa[this.state.questionNo].question.plain}
 				/>
@@ -184,7 +202,7 @@ export default class Finder extends React.Component {
 			});
 
 			return(
-				<div style={this.getContainerStyles()}>
+				<div style={this.getContainerStyles1()}>
 
 					<ResultPage
 						imageLoaded={this.imageLoaded.bind(this)}
@@ -199,6 +217,7 @@ export default class Finder extends React.Component {
 						link={this.props.data.results[maxResultKey].link}
 						image={this.props.data.results[maxResultKey].image}
 						text={this.props.data.results[maxResultKey].text}
+						title={this.props.data.results[maxResultKey].title}
 					/>
 
 					<Overlay
@@ -217,12 +236,11 @@ export default class Finder extends React.Component {
 			let imgr = this.props.data.qNa[this.state.questionNo].question.imgr;
 
 
-				console.log(imgr);
+				// console.log(imgr);
 			return(
 				<div style={this.getContainerStyles()}>
 					<div style={this.getWrapperStyles()}>
-						<Question text={question} loading={this.state.loading} />
-						<imgr src={imgr} />
+						<Question imgsrc={imgr} text={question} loading={this.state.loading} />
 						
 						{ this.createOptions() }
 						
