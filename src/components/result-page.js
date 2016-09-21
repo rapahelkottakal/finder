@@ -37,33 +37,34 @@ export default class ResultPage extends React.Component {
 			fontSize:'14'
 		}
 	}
-		resultTitleStyle(){
-		return{
-			    padding: '10px 2px 5px 2px',
-			    lineHeight: '1.5',
-			    color: 'rgb(11, 69, 107)',
-			    textAlign: 'center',
-			    fontSize: '20px',
-			    fontWeight: '800',
-		}
+
+	resultTitleStyle(){
+	return{
+		    padding: '10px 2px 5px 2px',
+		    lineHeight: '1.5',
+		    color: 'rgb(11, 69, 107)',
+		    textAlign: 'center',
+		    fontSize: '20px',
+		    fontWeight: '800'
+
 	}
+}
 
 	shopButtonStyle(){
 		return{
 			padding: '1px 20px',
-    textDecoration: 'none',
-    color: 'rgb(11, 69, 107)',
-    fontSize: '16px',
-    textAlign: 'center',
-    marginLeft: '30%',
-    borderBottom: '1px solid #0d526f',
-    fontWeight: '800'
+		    textDecoration: 'none',
+		    color: 'rgb(11, 69, 107)',
+		    fontSize: '16px',
+		    textAlign: 'center',
+		    marginLeft: '30%',
+		    borderBottom: '1px solid #0d526f',
+		    fontWeight: '800',
 		}	
 	}
 
 	resetQuizStyle(){
 		return{
-			position: 'absolute',
 			left: 0,
 			bottom: 0,
 			width: '100%',
@@ -72,6 +73,7 @@ export default class ResultPage extends React.Component {
 			textTransform: 'uppercase',
 			fontSize: 14,
 			cursor: 'pointer'
+		
 		}
 	}
 
