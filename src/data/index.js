@@ -151,17 +151,17 @@ export default {
 		'Classic': {
 			image: 'http://assets.myntassets.com/v1463138193/reactive/finder/11-9/Ranveer-answer1.1.jpg',
 			text: 'Congratulations! Your personal style embodies Ranveer Singh’s classic persona (which is very rare, we may add). From three piece suits for formal occasions to dapper sherwanis for weddings and other functions, you never stop amusing people with your evergreen style. Top it off with oodles of confidence and the result is a very desirable man.',
-			link: 'http://www.myntra.com/very-desirable-man?SRC=Lookgood6'
+			link: 'http://www.myntra.com/very-desirable-man?f=gender%3Amen%2Cmen%2520women'
 		},
 		'Quirky': {
 			image: 'http://assets.myntassets.com/v1463138194/reactive/finder/11-9/Ranveer-answer2.1.jpg',
 			text: 'From bizarre fashions to eye-popping prints; there’s no limit to your peculiar style. Nonetheless, everyone is in awe of you as you carry them off with utmost poise. You take a trend and dissect it and what comes out takes everyone by surprise. Every day feels like a runway to you and with the audience’s reaction we can tell this show is different but very successful.',
-			link: 'http://www.myntra.com/eye-popping-prints?SRC=Lookgood6'
+			link: 'http://www.myntra.com/eye-popping-prints?f=gender%3Amen%2Cmen%2520women'
 		},
 		'Trendy': {
 			image: 'http://assets.myntassets.com/v1463138195/reactive/finder/11-9/Ranveer-answer3.1.jpg',
 			text: 'Be it white sneakers or colourful hats, ripped denims to eyewear styles; you’re abreast with the latest trends. Not just that, you embrace them like nobody’s business! Your friends look up to you for your sense of style and you almost always manage to nail even the trickiest of trends.',
-			link: 'http://www.myntra.com/abreast-latest-trends?SRC=Lookgood6'
+			link: 'http://www.myntra.com/abreast-latest-trends?f=gender%3Amen%2Cmen%2520women'
 		},
 	}
 
