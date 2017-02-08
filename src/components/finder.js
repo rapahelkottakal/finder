@@ -107,7 +107,7 @@ export default class Finder extends React.Component {
 	getContainerStyles() {
 		return {
 			minHeight: window.innerHeight,
-		    backgroundColor: '#ff6ea2',
+		    backgroundColor: '#fff',
 			position: 'absolute',
 			top: 0,
 			left: 0,
@@ -121,10 +121,10 @@ export default class Finder extends React.Component {
 
 	getWrapperStyles() {
 		return {
-			maxWidth: 360,
-			margin: '2%',
+			// maxWidth: 360,
+			// margin: '2%',
 			paddingBottom: 1,
-			border: '2px dashed #fff',
+			// border: '2px dashed #fff',
 		    // marginBottom: '6%',
 		    // marginTop: '2%'
 		}
@@ -208,9 +208,10 @@ export default class Finder extends React.Component {
 
 			return(
 				<div style={this.getContainerStyles()}>
-					<div style={{maxWidth:360, margin: '0 auto'}}>
+					<div>
 						<div style={this.getWrapperStyles()}>
-							<Question text={question} loading={this.state.loading} />
+							<img style={{width:'100%', display:'block'}} src={question} alt="finder" />
+							{/*<Question text={question} loading={this.state.loading} />*/}
 							
 							{ this.createOptions() }
 							

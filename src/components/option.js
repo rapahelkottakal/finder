@@ -9,7 +9,8 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			padding: '15px 30px'
+			// padding: '15px 30px'
+			marginTop:-5
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -51,11 +52,11 @@ export default class Option extends React.Component {
 	render() {
 		let imgStyle = {
 			maxWidth: '100%',
-			marginBottom: 10
+			// marginBottom: 10
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', backgroundColor: 'white'} );
+			_.assignIn(imgStyle, {  backgroundColor: 'white'} );
 		}
 
 
@@ -69,7 +70,7 @@ export default class Option extends React.Component {
 					Image load failed!
 				</ImageLoader>
 				{this.getText()}
-				<img style={{ width: '50%', padding: '7% 23% 0'}} src={this.props.divider} />			
+				{/*<img style={{ width: '50%', padding: '7% 23% 0'}} src={this.props.divider} />			*/}
 			</div>
 		);
 	}

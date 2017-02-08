@@ -16,7 +16,7 @@ export default class ResultPage extends React.Component {
 
 	resultTextStyle(){
 		return{
-			backgroundColor: '#F2F1F6',
+			// backgroundColor: '#F2F1F6',
 			padding: '5px 20px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
@@ -37,16 +37,17 @@ export default class ResultPage extends React.Component {
 
 	resetQuizStyle(){
 		return{
-			position: 'absolute',
-			left: 0,
-			bottom: 0,
+			// position: 'absolute',
+			// left: 0,
+			// bottom: '18%',
 			width: '100%',
 			textAlign: 'center',
 			backgroundColor: '#61B3Db',
 			color: '#fff',
 			textTransform: 'uppercase',
 			fontSize: 16,
-			cursor: 'pointer'
+			cursor: 'pointer',
+			marginTop:21
 		}
 	}
 
