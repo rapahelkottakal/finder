@@ -27,15 +27,30 @@ export default class ResultPage extends React.Component {
 	shopButtonStyle(){
 		return{
 			backgroundColor: 'black',
-			padding: '1px 20px',
+			padding: '4px 10px',
 			textDecoration: 'none',
 			color: '#fff',
 			textTransform: 'uppercase',
-			fontSize: 16
+			fontSize: 13,
+			marginRight:10
+		}	
+	}
+
+	shopButtonStyle1(){
+		return{
+			backgroundColor: 'black',
+			padding: '4px 10px',
+			textDecoration: 'none',
+			color: '#fff',
+			textTransform: 'uppercase',
+			fontSize: 13,
+			// marginRight:10
+
 		}	
 	}
 
 	resetQuizStyle(){
+		console.log(this.props.link, this.props.collectionLink, )
 		return{
 			// position: 'absolute',
 			// left: 0,
@@ -67,6 +82,7 @@ export default class ResultPage extends React.Component {
 					<p>{this.props.text}</p>
 
 					<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
+					<a href={this.props.text} style= {this.shopButtonStyle1() }  target="_blank">dressberry Collections</a>
 					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
 				</div>
 			</div>
