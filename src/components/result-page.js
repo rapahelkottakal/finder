@@ -17,21 +17,23 @@ export default class ResultPage extends React.Component {
 	resultTextStyle(){
 		return{
 			// backgroundColor: '#F2F1F6',
-			padding: '5px 20px',
+			padding: '5px 10px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
-			marginTop: '-4px'
+			marginTop: '-4px',
+			margin:'0 auto',
+			textAlign:'center'
 		}
 	}
 
 	shopButtonStyle(){
 		return{
 			backgroundColor: 'black',
-			padding: '4px 10px',
+			padding: '4px 5px',
 			textDecoration: 'none',
 			color: '#fff',
 			textTransform: 'uppercase',
-			fontSize: 13,
+			fontSize: 10.5,
 			marginRight:10
 		}	
 	}
@@ -43,14 +45,14 @@ export default class ResultPage extends React.Component {
 			textDecoration: 'none',
 			color: '#fff',
 			textTransform: 'uppercase',
-			fontSize: 13,
+			fontSize: 10.5,
 			// marginRight:10
 
 		}	
 	}
 
 	resetQuizStyle(){
-		console.log(this.props.link, this.props.collectionLink, )
+		// console.log(this.props.link, this.props.collectionLink, )
 		return{
 			// position: 'absolute',
 			// left: 0,
@@ -79,9 +81,9 @@ export default class ResultPage extends React.Component {
 					Image load failed!
 				</ImageLoader>
 				<div style= {this.resultTextStyle()}>
-					<p>{this.props.text}</p>
+					{/*<p>{this.props.text}</p>*/}
 
-					<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
+					<a href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop personality</a>
 					<a href={this.props.text} style= {this.shopButtonStyle1() }  target="_blank">dressberry Collections</a>
 					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
 				</div>

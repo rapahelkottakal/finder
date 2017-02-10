@@ -105,7 +105,7 @@ export default {
 		'TypeB': {
 			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/9/11486631888370-DB_Vday_Quiz_mockIII-07.jpg',
 			// text: 'Congratulations! You are the adventurous type. You love to have fun and are always looking for a chance to break away from the mundane routine. Like your vivacious personality, shoes are something you love to experiment with all the time. From a gorgeous pair of stilettos to super trendy white sneakers, from flatforms to brogues; shoes are something that are always on your mind.',
-			link: 'http://www.myntra.com/dressberry-partygoer-2017',
+			link: 'http://www.myntra.com/db-valentine-feb2017',
 			collectionLink:'http://www.myntra.com/dressberry?sort=new',
 			text: 'http://www.myntra.com/dressberry?sort=new'
 		},
