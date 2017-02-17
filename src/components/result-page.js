@@ -22,11 +22,12 @@ export default class ResultPage extends React.Component {
 
 	resultTextStyle(){
 		return{
-			backgroundColor: '#F2F1F6',
+			// backgroundColor: '#F2F1F6',
 			padding: '5px 20px',
 			paddingBottom: 50,
 			lineHeight: '1.5',
-			marginTop: '-4px'
+			marginTop: '-4px',
+			fontSize: 13
 		}
 	}
 

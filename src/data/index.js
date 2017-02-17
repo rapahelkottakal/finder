@@ -6,129 +6,79 @@ export default {
 	},
 
 	qNa: [
-
 		{
 			question: {
-				text: 'What is your favourite summer style?',
-				weight: 3
+				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063374-01_01.jpg',
+				weight: 2
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-1.jpg',
-					text: 'Shift dress and thigh-high gladiators'
+					key: 'beach_bum',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063385-01_02.jpg',
+					// text: 'Shift dress and thigh-high gladiators'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-1-opt-2.jpg',
-					text: 'Sundress and sneakers'
+					key: 'camping_queen',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063397-01_03.jpg',
+					// text: 'Sundress and sneakers'
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-3.jpg',
-					text: 'Midi skirts with crop tops'
-
-				},
-				{
-					key: 'nyc',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-1-opt-4.jpg',
-					text: 'Playsuit with a floppy hat'
+					key: 'city_hopper',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063422-01_04.jpg',
+					// text: 'Midi skirts with crop tops'
 
 				}
-
 			]
 		},
 
 		{
 			question: {
-				text: 'What is your go-to accessory?',
-				weight: 3.5
-			},
-			options: [
-				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-1.jpg',
-					text: 'High heels'
-
-				},
-				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-2.jpg',
-					text: 'Scarves'
-
-				},
-				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-3.jpg',
-					text: 'Sling bags'
-
-				},
-				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-2-opt-4-min.jpg',
-					text: 'Round-rimmed sunglasses'
-
-				}
-
-			]
-		},
-
-		{
-			question: {
-				text: "Pick your favourite pattern from below.",
-				weight: 7.2
-			},
-			options: [
-				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-1.jpg',
-					text: 'Bold checks'
-
-				},
-				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-2.jpg',
-					text: 'Jail stripes'
-				},
-				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-3.jpg',
-					text: 'Leopard print'
-				},
-				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-ques-3-opt-4.jpg',
-					text: 'Florals'
-				}
-
-			]
-		},
-
-		{
-			question: {
-				text: "Which picture from below makes your stomach growl?",
+				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220945-02_01.jpg',
 				weight: 1
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-1.jpg',
-					text: 'Strawberry crepes'
+					key: 'camping_queen',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220965-02_02.jpg',
+					//text: 'Shift dress and thigh-high gladiators'
 				},
 				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-ques-4-opt-2.jpg',
-					text: 'Pepperoni pizza'
+					key: 'beach_bum',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220984-02_03.jpg',
+					//text: 'Sundress and sneakers'
 				},
 				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-4-opt-3.jpg',
-					text: 'Fish and chips'
+					key: 'city_hopper',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220999-02_04.jpg',
+					//text: 'Midi skirts with crop tops'
+
+				}
+			]
+		},
+
+		{
+			question: {
+				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243221012-03_01.jpg',
+				weight: 3
+			},
+			options: [
+				{
+					key: 'camping_queen',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243221029-03_02.jpg',
+					//text: 'High heels'
+
 				},
 				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-4-opt-4.jpg',
-					text: 'Hotdogs'
+					key: 'city_hopper',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504045-03_03.jpg',
+					//text: 'Scarves'
+
+				},
+				{
+					key: 'beach_bum',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504061-03_04.jpg',
+					//text: 'Sling bags'
+
 				}
 
 			]
@@ -136,53 +86,71 @@ export default {
 
 		{
 			question: {
-				text: 'Pick a word that best describes your personal style.',
-				weight: 5.25,
-				plain: true
+				text: "http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504079-04_01.jpg",
+				weight: 2.5
 			},
 			options: [
 				{
-					key: 'paris',
-					image: 'http://assets.myntassets.com/v1461838173/reactive/finder/4-27/fashion-capital-ques-5-opt-1.png',
-				},
-				{
-					key: 'london',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-2.png',
-				},
-				{
-					key: 'ny',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-3.png',
-				},
-				{
-					key: 'milan',
-					image: 'http://assets.myntassets.com/v1461838172/reactive/finder/4-27/fashion-capital-ques-5-opt-4.png',
-				},
+					key: 'beach_bum',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504095-04_02.jpg',
+					//text: 'Bold checks'
 
+				},
+				{
+					key: 'city_hopper',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504112-04_03.jpg',
+					//text: 'Jail stripes'
+				},
+				{
+					key: 'camping_queen',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504122-04_04.jpg',
+					//text: 'Leopard print'
+				}
+
+			]
+		},
+
+		{
+			question: {
+				text: "http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504140-05_01.jpg",
+				weight: 1.5
+			},
+			options: [
+				{
+					key: 'beach_bum',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504167-05_02.jpg',
+					//text: 'Strawberry crepes'
+				},
+				{
+					key: 'camping_queen',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504178-05_03.jpg',
+					//text: 'Pepperoni pizza'
+				},
+				{
+					key: 'city_hopper',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504210-05_04.jpg',
+					//text: 'Fish and chips'
+				}
 			]
 		},
 
 	],
 
-	results: {
-		'london': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-london.jpg',
-			text: 'Congratulations! Your wardrobe is a perfect mix of trendy and classic pieces. Just a pair of nude pumps or a crop top is all you need to look like a diva. You are also not afraid to embrace the changes in fashion trends every now and then!',
-			link: 'http://www.myntra.com/london-trendy-and-classic-pieces?SRC=Lookgood6'
+	results: {		
+		'beach_bum': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246489807-Ans-01_01.jpg',
+			text: 'Congratulations! A warm sun and the feeling of sand under your feet is what intoxicates you. We bet, you have a closet full of floral sundresses, swimsuits and fun slip-ons. Hats and sunblock are your best friends as you know the importance of taking care of your skin while out in the sun.',
+			link: 'http://www.myntra.com/beach-bum'
 		},
-		'paris': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-paris.jpg',
-			text: 'Congratulations! Your personal style resembles that of French belles on the streets of Paris. Stripes are an important part of your wardrobe. And so is the colour black. Fashion comes naturally to you as you never compromise on your elegance and comfort.',
-			link: 'http://www.myntra.com/paris-french-belles-on-streets?SRC=Lookgood6'
+		'camping_queen': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246489823-Ans-02_01.jpg',
+			text: 'Congratulations! You are the ultimate nature lover. Over the years, you have developed your own sense of style which is utilitarian yet stylish. Shorts and cargo pants paired with camouflage printed T-shirts is your vacation uniform. Your friends envy the collection of sturdy leather boots in your closet.',
+			link: 'http://www.myntra.com/camping-queen'
 		},
-		'ny': {
-			image: 'http://assets.myntassets.com/v1461838170/reactive/finder/4-27/fashion-capital-answer-new-york.jpg',
-			text: 'Congratulations! You dress like the true-blue New Yorker! You believe in yourself and your style reflects it. You never go back from being experimental and thus, you create your own fashion statement. High heels are something that you never compromise with!',
-			link: 'http://www.myntra.com/true-blue-new-yorker?SRC=Lookgood6'
-		},
-		'milan': {
-			image: 'http://assets.myntassets.com/v1461838171/reactive/finder/4-27/fashion-capital-answer-milan.jpg',
-			text: 'Congratulations! Milan is your inspiration. Although you go for more laid back looks, trainers are a big no-no outside the gym. Printed scarves are one accessory that is a staple for your wardrobe.',
-			link: 'http://www.myntra.com/milan-your-inspiration?SRC=Lookgood6'
+		'city_hopper': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246489853-Ans-03_01.jpg',
+			text: 'Congratulations! Whether the markets or the bookstores, you like to explore cities to their fullest. Although you go crazy for those rugged jeans and checked shirts, you also have some of those flared skirts and dresses which channel your inquisitive soul quite well.',
+			link: 'http://www.myntra.com/city-hopper'
 		}
 	}
 

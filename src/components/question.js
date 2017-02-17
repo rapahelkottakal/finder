@@ -45,7 +45,7 @@ export default class Question extends React.Component {
 	render() {
 		return(
 			<div className="question-wrapper" style={this.getStyles()} ref="question" >
-				<div className="question-text" style={{ padding: '20px 15px', paddingBottom: 10}}>{this.props.text}</div>
+				<div className="question-text"><img src={this.props.text} alt="Question" /></div>
 			</div>
 		);
 	}

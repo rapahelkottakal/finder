@@ -9,8 +9,8 @@ export default class Option extends React.Component {
 
 	getStyles() {
 		let styles = {
-			borderBottom: '1px solid lightgray',
-			padding: '15px 30px'
+			// borderBottom: '1px solid lightgray',
+			// padding: '15px 30px'
 		}
 
 		_.assignIn(styles, animate.transition('0.5s'));
@@ -51,11 +51,11 @@ export default class Option extends React.Component {
 	render() {
 		let imgStyle = {
 			maxWidth: '100%',
-			marginBottom: 10
+			// marginBottom: 10
 		}
 
 		if(!this.props.plain) {
-			_.assignIn(imgStyle, { borderRadius: '100%', boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
+			// _.assignIn(imgStyle, { boxShadow: 'hsl(0, 0%, 10%) 4px 4px 20px 5px' } );
 		}
 
 
