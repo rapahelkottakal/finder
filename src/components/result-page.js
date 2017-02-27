@@ -6,7 +6,10 @@ import Ga from '../helpers/Ga';
 export default class ResultPage extends React.Component {
 
 
-	handelShopBtnClick(e) {
+	handelMenShopBtnClick(e) {
+		Ga({ label: e.target.closest('a').href });
+	}
+	handelWomenShopBtnClick(e) {
 		Ga({ label: e.target.closest('a').href });
 	}
 
@@ -33,12 +36,32 @@ export default class ResultPage extends React.Component {
 
 	shopButtonStyle(){
 		return{
-			backgroundColor: 'black',
-			padding: '1px 20px',
+			backgroundColor: '#a7a8a8',
+			padding: '2px 10px',
 			textDecoration: 'none',
 			color: '#fff',
 			textTransform: 'uppercase',
-			fontSize: 16
+			fontSize: 14,
+			display: 'block',
+		    width: '50%',
+		    float: 'left',
+		    marginBottom: 43
+		}	
+	}
+
+	shopButtonStyle1(){
+		return{
+			backgroundColor: '#a7a8a8',
+			padding: '2px 10px',
+			textDecoration: 'none',
+			color: '#fff',
+			textTransform: 'uppercase',
+			fontSize: 14,
+			marginLeft:'2%',
+			display: 'block',
+		    width: '48%',
+		    float: 'left',
+		    marginBottom: 43
 		}	
 	}
 
@@ -71,8 +94,10 @@ export default class ResultPage extends React.Component {
 				</ImageLoader>
 				<div style= {this.resultTextStyle()}>
 					<p>{this.props.text}</p>
-
-					<a onClick={this.handelShopBtnClick} href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
+					<div style={{textAlign:'center'}}>
+						<a onClick={this.handelMenShopBtnClick} href={this.props.menLink} style= {this.shopButtonStyle() }  target="_blank">Shop Men</a>
+						<a onClick={this.handelWomenShopBtnClick} href={this.props.womenLink} style= {this.shopButtonStyle1() }  target="_blank">Shop Women</a>
+					</div>
 					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
 				</div>
 			</div>

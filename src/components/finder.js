@@ -136,7 +136,7 @@ export default class Finder extends React.Component {
 		return {
 			maxWidth: 360,
 			margin: '0 auto',
-			paddingTop: 100,
+			paddingTop: 134,
 			paddingBottom: 1
 		}
 	}
@@ -197,7 +197,8 @@ export default class Finder extends React.Component {
 						openOverlay={this.openOverlay.bind(this)}
 						closeOverlay={this.closeOverlay.bind(this)}
 
-						link={this.props.data.results[maxResultKey].link}
+						menLink={this.props.data.results[maxResultKey].menLink}
+						womenLink={this.props.data.results[maxResultKey].womenLink}
 						image={this.props.data.results[maxResultKey].image}
 						text={this.props.data.results[maxResultKey].text}
 					/>
