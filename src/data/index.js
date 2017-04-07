@@ -139,7 +139,7 @@ export default {
 		'ans': {
 			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491577339753-dress-finderdf.jpg',
 			text: '',
-			menLink: '',
+			menLink: 'http://www.myntra.com/bfg-mini-gig-headoverheels-offer',
 			
 		},
 		'wrongAns': {
