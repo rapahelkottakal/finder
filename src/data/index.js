@@ -13,7 +13,7 @@ export default {
 			},
 			options: [
 				{
-					key: 'ans',
+					key: 'wrongAns',
 					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491578153795-quiz_02.jpg',
 					// text: 'Shift dress and thigh-high gladiators'
 				},
@@ -29,7 +29,7 @@ export default {
 
 				},
 				{
-					key: 'wrongAns',
+					key: 'ans',
 					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491578153739-quiz_05.jpg',
 					// text: 'Midi skirts with crop tops'
 
@@ -44,7 +44,7 @@ export default {
 			},
 			options: [
 				{
-					key: 'ans',
+					key: 'wrongAns',
 					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491578566881-quiz1_02.jpg',
 					//text: 'Shift dress and thigh-high gladiators'
 				},
@@ -54,7 +54,7 @@ export default {
 					//text: 'Sundress and sneakers'
 				},
 				{
-					key: 'wrongAns',
+					key: 'ans',
 					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491578566839-quiz1_04.jpg',
 					//text: 'Midi skirts with crop tops'
 
@@ -74,13 +74,13 @@ export default {
 			},
 			options: [
 				{
-					key: 'ans',
+					key: 'wrongAns',
 					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491578672274-quiz2_02.jpg',
 					//text: 'High heels'
 
 				},
 				{
-					key: 'wrongAns',
+					key: 'ans',
 					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/4/7/11491578672263-quiz2_03.jpg',
 					//text: 'Scarves'
 
