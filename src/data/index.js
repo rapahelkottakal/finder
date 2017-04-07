@@ -8,23 +8,23 @@ export default {
 	qNa: [
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742663-01_01.jpg',
-				weight: 2
+				text: 'http://assets.myntassets.com/v1489042469/reactive/finder/80-trend/questions/01/80s-Trend-Quiz_Question_01.jpg',
+				weight: 1
 			},
 			options: [
 				{
-					key: 'Kareena_SaifAliKhan',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742679-01_02.jpg',
+					key: 'neons',
+					image: 'http://assets.myntassets.com/v1489042469/reactive/finder/80-trend/questions/01/80s-Trend-Quiz_Question_02.jpg',
 					// text: 'Shift dress and thigh-high gladiators'
 				},
 				{
-					key: 'Twinkle_Akshay',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742698-01_03.jpg',
+					key: 'power_shoulders',
+					image: 'http://assets.myntassets.com/v1489042470/reactive/finder/80-trend/questions/01/80s-Trend-Quiz_Question_03.jpg',
 					// text: 'Sundress and sneakers'
 				},
 				{
-					key: 'Aishwarya_Abhishek',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742715-01_04.jpg',
+					key: 'shimmer_sequins',
+					image: 'http://assets.myntassets.com/v1489042469/reactive/finder/80-trend/questions/01/80s-Trend-Quiz_Question_04.jpg',
 					// text: 'Midi skirts with crop tops'
 
 				}
@@ -33,23 +33,23 @@ export default {
 
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742727-02_01.jpg',
+				text: 'http://assets.myntassets.com/v1489042569/reactive/finder/80-trend/questions/02/80s-Trend-Quiz_Question_01.jpg',
 				weight: 1
 			},
 			options: [
 				{
-					key: 'Twinkle_Akshay',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742740-02_03.jpg',
+					key: 'neons',
+					image: 'http://assets.myntassets.com/v1489132021/reactive/finder/80-trend/questions/02/80s-Trend-Quiz_Question_02.jpg',
 					//text: 'Shift dress and thigh-high gladiators'
 				},
 				{
-					key: 'Kareena_SaifAliKhan',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742758-02_04.jpg',
+					key: 'power_shoulders',
+					image: 'http://assets.myntassets.com/v1489042570/reactive/finder/80-trend/questions/02/80s-Trend-Quiz_Question_03.jpg',
 					//text: 'Sundress and sneakers'
 				},
 				{
-					key: 'Aishwarya_Abhishek',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742781-02_05.jpg',
+					key: 'shimmer_sequins',
+					image: 'http://assets.myntassets.com/v1489042570/reactive/finder/80-trend/questions/02/80s-Trend-Quiz_Question_04.jpg',
 					//text: 'Midi skirts with crop tops'
 
 				}
@@ -58,25 +58,25 @@ export default {
 
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742801-03_01.jpg',
-				weight: 3
+				text: 'http://assets.myntassets.com/v1489042649/reactive/finder/80-trend/questions/03/80s-Trend-Quiz_Question_01.jpg',
+				weight: 1
 			},
 			options: [
 				{
-					key: 'Twinkle_Akshay',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581742821-03_02.jpg',
+					key: 'neons',
+					image: 'http://assets.myntassets.com/v1489042652/reactive/finder/80-trend/questions/03/80s-Trend-Quiz_Question_02.jpg',
 					//text: 'High heels'
 
 				},
 				{
-					key: 'Kareena_SaifAliKhan',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904621-03_03.jpg',
+					key: 'power_shoulders',
+					image: 'http://assets.myntassets.com/v1489042650/reactive/finder/80-trend/questions/03/80s-Trend-Quiz_Question_03.jpg',
 					//text: 'Scarves'
 
 				},
 				{
-					key: 'Aishwarya_Abhishek',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904634-03_04.jpg',
+					key: 'shimmer_sequins',
+					image: 'http://assets.myntassets.com/v1489042650/reactive/finder/80-trend/questions/03/80s-Trend-Quiz_Question_04.jpg',
 					//text: 'Sling bags'
 
 				}
@@ -86,24 +86,24 @@ export default {
 
 		{
 			question: {
-				text: "http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904674-04_01.jpg",
-				weight: 2.5
+				text: "http://assets.myntassets.com/v1489042732/reactive/finder/80-trend/questions/04/80s-Trend-Quiz_Question_01_01.jpg",
+				weight: 1
 			},
 			options: [
 				{
-					key: 'Aishwarya_Abhishek',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904696-04_02.jpg',
+					key: 'neons',
+					image: 'http://assets.myntassets.com/v1489042732/reactive/finder/80-trend/questions/04/80s-Trend-Quiz_Question_01_02.jpg',
 					//text: 'Bold checks'
 
 				},
 				{
-					key: 'Kareena_SaifAliKhan',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904712-04_03.jpg',
+					key: 'power_shoulders',
+					image: 'http://assets.myntassets.com/v1489042732/reactive/finder/80-trend/questions/04/80s-Trend-Quiz_Question_01_03.jpg',
 					//text: 'Jail stripes'
 				},
 				{
-					key: 'Twinkle_Akshay',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904742-04_04.jpg',
+					key: 'shimmer_sequins',
+					image: 'http://assets.myntassets.com/v1489042732/reactive/finder/80-trend/questions/04/80s-Trend-Quiz_Question_01_04.jpg',
 					//text: 'Leopard print'
 				}
 
@@ -112,23 +112,23 @@ export default {
 
 		{
 			question: {
-				text: "http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904760-05_01.jpg",
-				weight: 1.5
+				text: "http://assets.myntassets.com/v1489132116/reactive/finder/80-trend/questions/05/80s-Trend-Quiz_Question_01.jpg",
+				weight: 1
 			},
 			options: [
 				{
-					key: 'Twinkle_Akshay',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904779-05_02.jpg',
+					key: 'neons',
+					image: 'http://assets.myntassets.com/v1489132117/reactive/finder/80-trend/questions/05/80s-Trend-Quiz_Question_02.jpg',
 					//text: 'Strawberry crepes'
 				},
 				{
-					key: 'Aishwarya_Abhishek',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904794-05_03.jpg',
+					key: 'power_shoulders',
+					image: 'http://assets.myntassets.com/v1489132117/reactive/finder/80-trend/questions/05/80s-Trend-Quiz_Question_03.jpg',
 					//text: 'Pepperoni pizza'
 				},
 				{
-					key: 'Kareena_SaifAliKhan',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487581904814-05_04.jpg',
+					key: 'shimmer_sequins',
+					image: 'http://assets.myntassets.com/v1489132117/reactive/finder/80-trend/questions/05/80s-Trend-Quiz_Question_04.jpg',
 					//text: 'Fish and chips'
 				}
 			]
@@ -137,23 +137,23 @@ export default {
 	],
 
 	results: {		
-		'Aishwarya_Abhishek': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487582029337-Answer01_01.jpg',
-			text: 'You are a close match to the most celebrated couple of Bollywood. The beauty queen and the handsome hunk make for a perfect match. Whether it is fashion or food, you love everything Indian. You are almost always the best dressed couple at an ethnic affair. Check out our handpicked collection just for you.',
-			menLink: 'http://www.myntra.com/aishwarya-and-abhishek-men',
-			womenLink: 'http://www.myntra.com/aishwarya-and-abhishek',
+		'neons': {
+			image: 'http://assets.myntassets.com/v1489044061/reactive/finder/80-trend/results/80s-Trend-Quiz_Answer_1.jpg',
+			text: 'You’re peppy, cool and gravitate towards the eccentric. You like the glint of tin over the glint of gold. Your carefree and crazy spirit deserves some equally crazy clothing – the neons from the 80s will fit that bill perfectly. Shop some now!',
+			menLink: 'http://www.myntra.com/vibrant-in-neon-clothes',
+			
 		},
-		'Kareena_SaifAliKhan': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487582029351-Answer02_01.jpg',
-			text: 'You are closest to this Royal match of the lady from the first family of Bollywood and the Nawab of Pataudi. Power dressing comes to you naturally. And whether it is a casual or the ethnic avatar, you can carry off any kind of outfit like a breeze! Check out our handpicked collection just for you.',
-			menLink: 'http://www.myntra.com/kareena-kapoor-and-saifali-couple-for-men',
-			womenLink: 'http://www.myntra.com/kareena-kapoor-and-saifali-couple',
+		'power_shoulders': {
+			image: 'http://assets.myntassets.com/v1489044054/reactive/finder/80-trend/results/80s-Trend-Quiz_Answer_2.jpg',
+			text: 'You can’t stand a hair out of place and align everything the way you want. You demand substance just as much as style, and the go-getter in you will love the commanding aura that power dressing exudes. Try it here.',
+			menLink: 'http://www.myntra.com/sharp-and-smart',
+			
 		},
-		'Twinkle_Akshay': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/20/11487582029375-Answer03_01.jpg',
-			text: 'That’s your closest match! She is the yin to his yang. She’s got the brains, he’s got the body and it is a pairing that was bound to come together. You are the coolest couple in your gang and you mostly like your casuals. From breezy dresses or kurtis to casual jeans with tees, you always wear something that you are most comfortable in no matter what the occasion. Check out our handpicked collection just for you.',
-			menLink: 'http://www.myntra.com/twinkle-and-akshay-couple-for-men',
-			womenLink: 'http://www.myntra.com/twinkle-and-akshay-couple-for-women',
+		'shimmer_sequins': {
+			image: 'http://assets.myntassets.com/v1489044055/reactive/finder/80-trend/results/80s-Trend-Quiz_Answer_3.jpg',
+			text: 'imple and sober are the last adjectives on your mind.You’ve devoted your life to sparkle and shine, hence will adore the sequin-ny and shimmery trend brought by the revival of 80s. Steal the spotlight with these.',
+			menLink: 'http://www.myntra.com/glitzy-and-glamorous',
+			
 		}
 	}
 

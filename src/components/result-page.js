@@ -26,10 +26,10 @@ export default class ResultPage extends React.Component {
 	resultTextStyle(){
 		return{
 			// backgroundColor: '#F2F1F6',
-			padding: '5px 20px',
-			paddingBottom: 50,
+			padding: '0px 20px 5px 20px',
+			// paddingBottom: 50,
 			lineHeight: '1.5',
-			marginTop: '-4px',
+			marginTop: '-5%',
 			fontSize: 13
 		}
 	}
@@ -49,21 +49,21 @@ export default class ResultPage extends React.Component {
 		}	
 	}
 
-	shopButtonStyle1(){
-		return{
-			backgroundColor: '#a7a8a8',
-			padding: '2px 10px',
-			textDecoration: 'none',
-			color: '#fff',
-			textTransform: 'uppercase',
-			fontSize: 14,
-			marginLeft:'2%',
-			display: 'block',
-		    width: '48%',
-		    float: 'left',
-		    marginBottom: 43
-		}	
-	}
+	// shopButtonStyle1(){
+	// 	return{
+	// 		backgroundColor: '#a7a8a8',
+	// 		padding: '2px 10px',
+	// 		textDecoration: 'none',
+	// 		color: '#fff',
+	// 		textTransform: 'uppercase',
+	// 		fontSize: 14,
+	// 		marginLeft:'2%',
+	// 		display: 'block',
+	// 	    width: '48%',
+	// 	    float: 'left',
+	// 	    marginBottom: 43
+	// 	}	
+	// }
 
 	resetQuizStyle(){
 		return{
@@ -85,19 +85,19 @@ export default class ResultPage extends React.Component {
 
 		return(
 			<div>
-				<ImageLoader
+				<a onClick={this.handelMenShopBtnClick} href={this.props.menLink}  target="_blank"><ImageLoader
 					src={this.props.image}
 					imgProps={{ style: {width: '100%'} }}
 					wrapper={React.DOM.div}
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
+				</a>
 				<div style= {this.resultTextStyle()}>
-					<p>{this.props.text}</p>
+					{/*<p>{this.props.text}</p>
 					<div style={{textAlign:'center'}}>
-						<a onClick={this.handelMenShopBtnClick} href={this.props.menLink} style= {this.shopButtonStyle() }  target="_blank">Shop Men</a>
-						<a onClick={this.handelWomenShopBtnClick} href={this.props.womenLink} style= {this.shopButtonStyle1() }  target="_blank">Shop Women</a>
-					</div>
+						<a onClick={this.handelMenShopBtnClick} href={this.props.menLink} style= {this.shopButtonStyle() }  target="_blank">Shop Now</a>
+					</div>*/}
 					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
 				</div>
 			</div>

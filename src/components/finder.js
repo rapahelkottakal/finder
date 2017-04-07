@@ -136,7 +136,7 @@ export default class Finder extends React.Component {
 		return {
 			maxWidth: 360,
 			margin: '0 auto',
-			paddingTop: 134,
+			paddingTop: '25%',
 			paddingBottom: 1
 		}
 	}
