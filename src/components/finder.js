@@ -121,20 +121,21 @@ export default class Finder extends React.Component {
 			minHeight: window.innerHeight,
 			backgroundColor:'#fff',
 		    // backgroundImage: 'url("http://assets.myntassets.com/v1461838173/reactive/finder/4-27/background.jpg")',
-			position: 'absolute',
+			position: 'relative',
 			top: 0,
 			left: 0,
 			width: '100%',
 			backgroundRepeat: 'no-repeat',
 			backgroundPosition: 'top center',
 			backgroundSize: 'cover',
-			backgroundAttachment: 'fixed'
+			backgroundAttachment: 'fixed',
+			overflow: 'hidden'
 		}
 	}
 
 	getWrapperStyles() {
 		return {
-			maxWidth: 360,
+			maxWidth: 420,
 			margin: '0 auto',
 			paddingTop: '25%',
 			paddingBottom: 1

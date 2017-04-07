@@ -21,7 +21,7 @@ export default class Question extends React.Component {
 	getStyles() {
 
 		let styles = {
-			position: 'fixed',
+			position: 'absolute',
 		    zIndex: 999,
 		    top: 0,
 		    left: 0,

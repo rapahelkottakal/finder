@@ -1,26 +1,134 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Fashionable Celebrity Couple</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    ga('create', 'UA-1752831-18', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    <title>Fashionable Celebrity Couple</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: #feedf6;
+            background: -webkit-gradient(linear,left top,right bottom,from(#feedf6),to(#fcf0e2));
+            background: -webkit-linear-gradient(top left,#feedf6,#fcf0e2);
+            background: linear-gradient(to bottom right,#feedf6,#fcf0e2);
+        }
+        html {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            -webkit-box-sizing: inherit;
+            -moz-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    	.logo {
+    		float: left;
+    	}
+    	.header-sprite.mlogo {
+    	    background-position: 0 0;
+    	    width: 111px;
+    	    height: 38px;
+    	}
+    	.header-sprite {
+    	    background: url(https://cdn.myntassets.com/myx/images/header@2x-new16.a409d46af2e211afcaa82c1359787a90408024be.png) no-repeat top left;
+    	    background-size: 335px 47px;
+    	}
+    	.header-cnt {
+    	    display: none;
+    	    -webkit-transition: top .5s ease-out,background-color .5s ease-out;
+    	    -moz-transition: top .5s ease-out,background-color .5s ease-out;
+    	    -o-transition: top .5s ease-out,background-color .5s ease-out;
+    	    transition: top .5s ease-out,background-color .5s ease-out;
+    	    /*position: fixed;*/
+    	    width: 100%;
+    	    top: 0;
+    	    left: 0;
+    	    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    	    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    	    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    	    z-index: 3;
+    	    background-color: rgba(255,255,255,0.98);
+    	    margin-bottom: 16px;
+    	}
+    	.header {
+    	    position: relative;
+    	    /*width: 980px;*/
+    	    height: 64px;
+    	    margin: 0 auto;
+    	    padding: 16px 8px;
+    	}
+    	a.main {
+    	    display: inline-block;
+    	    position: relative;
+    	    height: 50px;
+    	    float: right;
+    	    padding: 8px 10px 0 10px;
+    	    margin: 0 10px;
+    	    font-weight: 500;
+    	    font-size: 15px;
+    	    text-transform: capitalize;
+    	    line-height: 24px;
+    	    text-decoration: none;
+    	    color: #282c3f;
+    	}
+    	.header-sprite.icon-user {
+    		display: inline-block;
+    	    background-position: -228px 0;
+    	    width: 19px;
+    	    height: 24px;
+    	}
+    	.header-sprite.icon-bag {
+    		display: inline-block;
+    	    background-position: -248px 0;
+    	    width: 21px;
+    	    height: 24px;
+    	}
+    	#finder {
+    		max-width: 420px;
+    		margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 2px 15px rgba(0,0,0,.1);
+    	}
 
-	<!-- Google Analytics -->
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-1752831-18', 'auto');
-	ga('send', 'pageview');
-	</script>
-	<!-- End Google Analytics -->
-</head>
-<body>
-	<div id="finder"></div>
-	<script type="text/javascript" src="bundle.js"></script>
-</body>
+    </style>
+  </head>
+  <body>
+  	<div id="header" class="header-cnt new">
+  		<div class="header">
+  			<a href="http://www.myntra.com/?src=logo" class="logo"><div class="header-sprite mlogo"></div></a>
+  			<a href="http://www.myntra.com/checkout/cart" class="main"><span class="pic header-sprite icon-bag"></span></a>
+            <a href="https://secure.myntra.com/my/profile" class="main"><span class="pic header-sprite icon-user"></span></a>
+
+  		</div>
+  	</div>
+    <div id="finder"></div>
+    <script type="text/javascript">
+    	var header = document.getElementById('header');
+    	if (!navigator.userAgent.includes('MyntraRetail')) {
+    		// console.log(header.style.display);
+    		header.style.display = 'block';
+    	}
+    </script>
+    <script type="text/javascript" src="bundle.js"></script>
+  </body>
 </html>

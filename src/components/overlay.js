@@ -12,7 +12,7 @@ export default class Overlay extends React.Component {
 			backgroundImage: 'url(' + this.props.bgImage + ')',
 			top: 0,
 			left: 0,
-			position: 'fixed',
+			position: 'absolute',
 			zIndex: '99999',
 			overflow: 'auto',
 			width: '100%',
