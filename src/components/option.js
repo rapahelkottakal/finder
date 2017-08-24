@@ -6,17 +6,28 @@ import animate from '../helpers/animate';
 
 
 export default class Option extends React.Component {
+	constructor(props){
+
+		super(props);
+		this.state={
+			clickedOpt:false,
+		}
+	}
 
 	getStyles() {
+
 		let styles = {
-			// borderBottom: '1px solid lightgray',
-			// padding: '15px 30px'
+			borderBottom: '1px solid lightgray',
+			padding: '15px 30px'
 		}
 
-		_.assignIn(styles, animate.transition('0.5s'));
+		_.assignIn(styles, animate.transition('3s'));
 
 		if (this.props.loading) {
 			_.assignIn(styles, animate.transform('translateY('+ window.innerHeight +'px)'));
+		}
+		if(this.state.clickedOpt){
+			_.assignIn(styles, {backgroundColor:'#efefef'});
 		}
 
 		return styles;
@@ -26,7 +37,7 @@ export default class Option extends React.Component {
 		return {
 			textAlign: 'center',
 			fontSize: 16,
-			color: 'white',
+			color: '#000',
 			textTransform: 'uppercase'
 		}
 	}
@@ -40,10 +51,13 @@ export default class Option extends React.Component {
 	}
 
 	clickHandler() {
+		this.setState({clickedOpt:true})
 		setTimeout(()=>{
 			this.props.clickit(this.props.result, this.props.weight);
+			this.setState({clickedOpt:false})
 			window.scrollTo(0, 0);
-		}, 750);
+		}, 2000);
+		console.log(this.state);
 		this.props.closeOverlay();
 	}
 

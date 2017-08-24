@@ -23,7 +23,7 @@ export default class Overlay extends React.Component {
 			zIndex: '999'
 		};
 
-		_.assignIn(style, animate.transition('0.5s'));
+		_.assignIn(style, animate.transition('3s'));
 
 		if (!this.props.loading) {
 

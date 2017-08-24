@@ -200,6 +200,7 @@ export default class Finder extends React.Component {
 						menLink={this.props.data.results[maxResultKey].menLink}
 						womenLink={this.props.data.results[maxResultKey].womenLink}
 						image={this.props.data.results[maxResultKey].image}
+						body1={this.props.data.results[maxResultKey].body1}
 						text={this.props.data.results[maxResultKey].text}
 					/>
 

@@ -82,17 +82,22 @@ export default class ResultPage extends React.Component {
 
 
 	render() {
-
+		console.log(this.props);
 		return(
 			<div>
-				<a onClick={this.handelMenShopBtnClick} href={this.props.menLink}  target="_blank"><ImageLoader
-					src={this.props.image}
-					imgProps={{ style: {width: '100%'} }}
-					wrapper={React.DOM.div}
-					onLoad={this.props.imageLoaded}>
-					Image load failed!
-				</ImageLoader>
+				<a onClick={this.handelMenShopBtnClick} href={this.props.menLink}  target="_blank">
+				
+					<ImageLoader
+						src={this.props.image}
+						imgProps={{ style: {width: '100%'} }}
+						wrapper={React.DOM.div}
+						onLoad={this.props.imageLoaded}>
+						Image load failed!
+					</ImageLoader>
 				</a>
+				<div style={{backgroundColor:'#efefef'}}>
+					{this.props.body1}
+				</div>
 				<div style= {this.resultTextStyle()}>
 					{/*<p>{this.props.text}</p>
 					<div style={{textAlign:'center'}}>
