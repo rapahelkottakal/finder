@@ -21,13 +21,13 @@ export default class Option extends React.Component {
 			padding: '15px 30px'
 		}
 
-		_.assignIn(styles, animate.transition('3s'));
+		_.assignIn(styles, animate.transition('1s'));
 
 		if (this.props.loading) {
 			_.assignIn(styles, animate.transform('translateY('+ window.innerHeight +'px)'));
 		}
 		if(this.state.clickedOpt){
-			_.assignIn(styles, {backgroundColor:'#efefef'});
+			_.assignIn(styles, {backgroundColor:'#000'});
 		}
 
 		return styles;

@@ -142,18 +142,36 @@ export default {
 		'neons': {
 			image: 'http://assets.myntassets.com/v1489044061/reactive/finder/80-trend/results/80s-Trend-Quiz_Answer_1.jpg',
 			body1:
-			<div>
-			<div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-			</div>
-			<div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-			</div>
-			</div>,
+			{	brand1:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand2:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand3:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand4:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand5:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand6:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+			},
 			text: 'You’re peppy, cool and gravitate towards the eccentric. You like the glint of tin over the glint of gold. Your carefree and crazy spirit deserves some equally crazy clothing – the neons from the 80s will fit that bill perfectly. Shop some now!',
 			menLink: 'http://www.myntra.com/vibrant-in-neon-clothes',
 			
@@ -161,19 +179,37 @@ export default {
 		'power_shoulders': {
 			image: 'http://assets.myntassets.com/v1489044054/reactive/finder/80-trend/results/80s-Trend-Quiz_Answer_2.jpg',
 			body1:
-			<div>
-			<div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-			</div>
-			<div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-			</div>
-			</div>
-			,
+			{	brand1:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand2:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand3:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand4:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand5:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand6:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+			},
+			
 			text: 'You can’t stand a hair out of place and align everything the way you want. You demand substance just as much as style, and the go-getter in you will love the commanding aura that power dressing exudes. Try it here.',
 			menLink: 'http://www.myntra.com/sharp-and-smart',
 			
@@ -181,18 +217,36 @@ export default {
 		'shimmer_sequins': {
 			image: 'http://assets.myntassets.com/v1489044055/reactive/finder/80-trend/results/80s-Trend-Quiz_Answer_3.jpg',
 			body1:
-			<div>
-			<div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-			</div>
-			<div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-				<div style={{backgroundColor:'#efefef',float:'left',width:'33.3%'}}><img src="https://dummyimage.com/200x200&text=dummyimage" /></div>
-			</div>
-			</div>,
+			{	brand1:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand2:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand3:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand4:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand5:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+
+				brand6:{
+					img:'https://dummyimage.com/200x200&text=dummyimage1',
+					url:'https://www.myntra.com/1'
+				},
+			},
 			text: 'imple and sober are the last adjectives on your mind.You’ve devoted your life to sparkle and shine, hence will adore the sequin-ny and shimmery trend brought by the revival of 80s. Steal the spotlight with these.',
 			menLink: 'http://www.myntra.com/glitzy-and-glamorous',
 			

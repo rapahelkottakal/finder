@@ -28,8 +28,12 @@ export default class Finder extends React.Component {
 			loading: true,
 			loadedImgs: 0,
 			resultPage: false,
-			resultOpts
+			resultOpts,
+			gender:null,
+
+
 		}
+
 
 	}
 
@@ -115,6 +119,19 @@ export default class Finder extends React.Component {
 
 
 	}
+	getGenderStyles() {
+		return {
+			minHeight: window.innerHeight,
+			backgroundColor:'hsla(0,0%,0%,0.5)',
+		    // backgroundImage: 'url("http://assets.myntassets.com/v1461838173/reactive/finder/4-27/background.jpg")',
+			position: 'fixed',
+			display:(this.state.gender===null) ? 'block' : 'none',
+			top: 0,
+			left: 0,
+			width: '100%',
+			zIndex: 9999,
+		}
+	}
 
 	getContainerStyles() {
 		return {
@@ -141,7 +158,13 @@ export default class Finder extends React.Component {
 		}
 	}
 
+	setGender(g){
 
+		this.setState({
+			gender:g
+		});
+		
+	}
 	createOptions() {
 
 		let optionsArray = this.props.data.qNa[this.state.questionNo].options;
@@ -217,9 +240,17 @@ export default class Finder extends React.Component {
 		} else {
 
 			let question = this.props.data.qNa[this.state.questionNo].question.text;
-
+			let css1 =
+				{fontSize:12,top:'30%',textAlign:'center',left:0,position:'fixed',backgroundColor:'#efefef',color:'#000',width:'40%',margin:10,padding:10}
+			let css2 =
+				{fontSize:12,top:'30%',textAlign:'center',right:0,position:'fixed',backgroundColor:'#efefef',color:'#000',width:'40%',margin:10,padding:10}
+			
 			return(
 				<div style={this.getContainerStyles()}>
+					<div style={this.getGenderStyles()}>
+						<div onClick={this.setGender.bind(this,'men')} style={css1}>Men</div>
+						<div onClick={this.setGender.bind(this,'women')} style={css2}>Women</div>
+					</div>
 					<div style={this.getWrapperStyles()}>
 						<Question text={question} loading={this.state.loading} />
 						

@@ -64,7 +64,12 @@ export default class ResultPage extends React.Component {
 	// 	    marginBottom: 43
 	// 	}	
 	// }
+	// resultBrands(){
 
+	// 	let brands : this.props.body1.images[0]
+
+
+	// }
 	resetQuizStyle(){
 		return{
 			position: 'absolute',
@@ -82,7 +87,7 @@ export default class ResultPage extends React.Component {
 
 
 	render() {
-		console.log(this.props);
+		console.log(this.props.body1.brand1.img);
 		return(
 			<div>
 				<a onClick={this.handelMenShopBtnClick} href={this.props.menLink}  target="_blank">
@@ -96,7 +101,29 @@ export default class ResultPage extends React.Component {
 					</ImageLoader>
 				</a>
 				<div style={{backgroundColor:'#efefef'}}>
-					{this.props.body1}
+					<div>
+						<a target='_blank' href={this.props.body1.brand1.url}>
+							<img  style={{float:'left',width:'33.3%'}} src={this.props.body1.brand1.img}/>
+						</a>
+						<a target='_blank' href={this.props.body1.brand2.url}>
+							<img  style={{float:'left',width:'33.3%'}} src={this.props.body1.brand2.img}/>
+						</a>
+						<a target='_blank' href={this.props.body1.brand3.url}>
+							<img  style={{float:'left',width:'33.3%'}} src={this.props.body1.brand3.img}/>
+						</a>
+					</div>
+					<div>
+						<a target='_blank' href={this.props.body1.brand4.url}>
+							<img  style={{float:'left',width:'33.3%'}} src={this.props.body1.brand4.img}/>
+						</a>
+						<a target='_blank' href={this.props.body1.brand5.url}>
+							<img  style={{float:'left',width:'33.3%'}} src={this.props.body1.brand5.img}/>
+						</a>
+						<a target='_blank' href={this.props.body1.brand6.url}>
+							<img  style={{float:'left',width:'33.3%'}} src={this.props.body1.brand6.img}/>
+						</a>
+					</div>
+
 				</div>
 				<div style= {this.resultTextStyle()}>
 					{/*<p>{this.props.text}</p>
