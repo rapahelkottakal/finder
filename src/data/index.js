@@ -8,49 +8,31 @@ export default {
 	qNa: [
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063374-01_01.jpg',
-				weight: 2
-			},
-			options: [
-				{
-					key: 'beach_bum',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063385-01_02.jpg',
-					// text: 'Shift dress and thigh-high gladiators'
-				},
-				{
-					key: 'camping_queen',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063397-01_03.jpg',
-					// text: 'Sundress and sneakers'
-				},
-				{
-					key: 'city_hopper',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246063422-01_04.jpg',
-					// text: 'Midi skirts with crop tops'
-
-				}
-			]
-		},
-
-		{
-			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220945-02_01.jpg',
+				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130688-Choose-your-poison_header.jpg',
 				weight: 1
 			},
 			options: [
 				{
-					key: 'camping_queen',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220965-02_02.jpg',
-					//text: 'Shift dress and thigh-high gladiators'
+					key: 'seductress',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130677-Choose-your-poison_option-1.jpg',
 				},
 				{
-					key: 'beach_bum',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220984-02_03.jpg',
-					//text: 'Sundress and sneakers'
+					key: 'elegant',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130665-Choose-your-poison_option-2.jpg',
 				},
 				{
-					key: 'city_hopper',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243220999-02_04.jpg',
-					//text: 'Midi skirts with crop tops'
+					key: 'funOne',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130652-Choose-your-poison_option-3.jpg',
+
+				},
+				{
+					key: 'girlyGirl',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130639-Choose-your-poison_option-4.jpg',
+
+				},
+				{
+					key: 'peppy',
+					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130615-Choose-your-poison_option-5.jpg',
 
 				}
 			]
@@ -58,26 +40,63 @@ export default {
 
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243221012-03_01.jpg',
-				weight: 3
+				text: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144319-what-kind-of-flirt-are-you_header.jpg',
+				weight: 1
 			},
 			options: [
 				{
-					key: 'camping_queen',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487243221029-03_02.jpg',
-					//text: 'High heels'
+					key: 'seductress',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144297-what-kind-of-flirt-are-you_option-1.jpg',
+				},
+				{
+					key: 'elegant',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144270-what-kind-of-flirt-are-you_option-2.jpg',
+				},
+				{
+					key: 'funOne',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144254-what-kind-of-flirt-are-you_option-3.jpg',
 
 				},
 				{
-					key: 'city_hopper',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504045-03_03.jpg',
-					//text: 'Scarves'
+					key: 'girlyGirl',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144238-what-kind-of-flirt-are-you_option-4.jpg',
 
 				},
 				{
-					key: 'beach_bum',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504061-03_04.jpg',
-					//text: 'Sling bags'
+					key: 'peppy',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144213-what-kind-of-flirt-are-you_option-5.jpg',
+
+				}
+			]
+		},
+
+		{
+			question: {
+				text: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153371-Your-favourite-holiday-destination_header.jpg',
+				weight: 1
+			},
+			options: [
+				{
+					key: 'seductress',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153354-Your-favourite-holiday-destination_option-1.jpg',
+				},
+				{
+					key: 'elegant',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153335-Your-favourite-holiday-destination_option-2.jpg',
+				},
+				{
+					key: 'funOne',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153323-Your-favourite-holiday-destination_option-3.jpg',
+
+				},
+				{
+					key: 'girlyGirl',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153307-Your-favourite-holiday-destination_option-4.jpg',
+
+				},
+				{
+					key: 'peppy',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153287-Your-favourite-holiday-destination_option-5.jpg',
 
 				}
 
@@ -86,25 +105,32 @@ export default {
 
 		{
 			question: {
-				text: "http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504079-04_01.jpg",
-				weight: 2.5
+				text: "http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162990-which-lingerie-style-defines-you_header.jpg",
+				weight: 1
 			},
 			options: [
 				{
-					key: 'beach_bum',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504095-04_02.jpg',
-					//text: 'Bold checks'
+					key: 'seductress',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162971-which-lingerie-style-defines-you_option-1.jpg',
+				},
+				{
+					key: 'elegant',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162954-which-lingerie-style-defines-you_option-2.jpg',
+				},
+				{
+					key: 'funOne',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162931-which-lingerie-style-defines-you_option-3.jpg',
 
 				},
 				{
-					key: 'city_hopper',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504112-04_03.jpg',
-					//text: 'Jail stripes'
+					key: 'girlyGirl',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162912-which-lingerie-style-defines-you_option-4.jpg',
+
 				},
 				{
-					key: 'camping_queen',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504122-04_04.jpg',
-					//text: 'Leopard print'
+					key: 'peppy',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162894-which-lingerie-style-defines-you_option-5.jpg',
+
 				}
 
 			]
@@ -112,24 +138,32 @@ export default {
 
 		{
 			question: {
-				text: "http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504140-05_01.jpg",
-				weight: 1.5
+				text: "http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173820-whos-your-celeb-crush_header.jpg",
+				weight: 1
 			},
 			options: [
 				{
-					key: 'beach_bum',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504167-05_02.jpg',
-					//text: 'Strawberry crepes'
+					key: 'seductress',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173808-whos-your-celeb-crush_option-1.jpg',
 				},
 				{
-					key: 'camping_queen',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504178-05_03.jpg',
-					//text: 'Pepperoni pizza'
+					key: 'elegant',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173795-whos-your-celeb-crush_option-2.jpg',
 				},
 				{
-					key: 'city_hopper',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487245504210-05_04.jpg',
-					//text: 'Fish and chips'
+					key: 'funOne',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173783-whos-your-celeb-crush_option-3.jpg',
+
+				},
+				{
+					key: 'girlyGirl',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173771-whos-your-celeb-crush_option-4.jpg',
+
+				},
+				{
+					key: 'peppy',
+					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173759-whos-your-celeb-crush_option-5.jpg',
+
 				}
 			]
 		},
@@ -137,20 +171,30 @@ export default {
 	],
 
 	results: {		
-		'beach_bum': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246489807-Ans-01_01.jpg',
-			text: 'Congratulations! A warm sun and the feeling of sand under your feet is what intoxicates you. We bet, you have a closet full of floral sundresses, swimsuits and fun slip-ons. Hats and sunblock are your best friends as you know the importance of taking care of your skin while out in the sun.',
-			link: 'http://www.myntra.com/beach-bum'
+		'seductress': {
+			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512396447288-11512394705346-the-seductress.jpg',
+			text: 'You’re a true blue seductress and confidence is your middle name. You intimidate a lot of men (and a few women too).Shades of maroon lip colours are something you should swear by as they best define your personality type.',
+			link: 'https://www.myntra.com/lipstick-quiz-the-seductress_554058'
 		},
-		'camping_queen': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246489823-Ans-02_01.jpg',
-			text: 'Congratulations! You are the ultimate nature lover. Over the years, you have developed your own sense of style which is utilitarian yet stylish. Shorts and cargo pants paired with camouflage printed T-shirts is your vacation uniform. Your friends envy the collection of sturdy leather boots in your closet.',
-			link: 'http://www.myntra.com/camping-queen'
+		'elegant': {
+			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705408-elegant-woman.jpg',
+			text: 'Dressed in silks, you’re the wine drinker and art lover of the lot. Your choice of red lip colour isn’t something too bright and definitely nothing that’s too dark either. Brick reds define you best.',
+			link: 'https://www.myntra.com/lipstick-quiz-elegant-woman_554054'
 		},
-		'city_hopper': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/2/16/11487246489853-Ans-03_01.jpg',
-			text: 'Congratulations! Whether the markets or the bookstores, you like to explore cities to their fullest. Although you go crazy for those rugged jeans and checked shirts, you also have some of those flared skirts and dresses which channel your inquisitive soul quite well.',
-			link: 'http://www.myntra.com/city-hopper'
+		'funOne': {
+			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705386-the-fun-one.jpg',
+			text: 'You’re great company! Everybody loves to hang out with you. Berry shades are your choice of lip colours. Just like the berry shades are fruity, fun and not too loud (read jarring).',
+			link: 'https://www.myntra.com/lipstick-quiz-funny-one_554056'
+		},
+		'girlyGirl': {
+			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705375-the-girlie-girl.jpg',
+			text: 'Darling, you personify femininity. Glossy scarlet reds and shiny crimsons look best with your girly outfits and pretty hairstyles. Although, you don’t mind donning a matte lipstick once in a while, you know you can’t leave those glossy ones away from your lips for long.',
+			link: 'https://www.myntra.com/lipstick-quiz-girly-girl_554057'
+		},
+		'peppy': {
+			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705320-young-and-peppy.jpg',
+			text: 'Playful and sprightly are words that best describe your state of mind. You can’t play down an emotion, let alone your choice of lip colour! The brightest shades of red (read fire engine red) are something you pick up instinctively off the shelf.',
+			link: 'https://www.myntra.com/lipstick-quiz-young-preppy_554055'
 		}
 	}
 
