@@ -69,12 +69,12 @@ export default class ResultPage extends React.Component {
 					onLoad={this.props.imageLoaded}>
 					Image load failed!
 				</ImageLoader>
-				{/*<div style= {this.resultTextStyle()}>
+				<div style= {this.resultTextStyle()}>
 					<p>{this.props.text}</p>
 
 					<a onClick={this.handelShopBtnClick} href={this.props.link} style= {this.shopButtonStyle() }  target="_blank">Shop now</a>
 					<div onClick={this.clickHandler.bind(this)} style= {this.resetQuizStyle()}>Play again</div>
-				</div>*/}
+				</div>
 			</div>
 		);
 	}
