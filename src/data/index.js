@@ -2,32 +2,32 @@ export default {
 
 	overlay: {
 		bgColor: 'white',
-		img: 'http://assets.myntassets.com/v1461845818/reactive/finder/loading-min.gif'
+		img: 'https://assets.myntassets.com/v1461845818/reactive/finder/loading-min.gif'
 	},
 
 	qNa: [
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130688-Choose-your-poison_header.jpg',
+				text: '	https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066234002-W-QUIZ1_01.jpg',
 				weight: 1
 			},
 			options: [
 				{
-					key: 'seductress',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130677-Choose-your-poison_option-1.jpg',
+					key: 'a',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066233990-W-QUIZ1_02.jpg',
 				},
 				{
-					key: 'elegant',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130665-Choose-your-poison_option-2.jpg',
+					key: 'b',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066233970-W-QUIZ1_03.jpg',
 				},
 				{
-					key: 'funOne',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130652-Choose-your-poison_option-3.jpg',
+					key: 'c',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066233955-W-QUIZ1_04.jpg',
 
 				},
 				{
-					key: 'girlyGirl',
-					image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512393130639-Choose-your-poison_option-4.jpg',
+					key: 'd',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066233928-W-QUIZ1_05.jpg',
 
 				}
 			]
@@ -35,26 +35,26 @@ export default {
 
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144319-what-kind-of-flirt-are-you_header.jpg',
+				text: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066376059-W-QUIZ2_01.jpg',
 				weight: 1
 			},
 			options: [
 				{
-					key: 'seductress',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144297-what-kind-of-flirt-are-you_option-1.jpg',
+					key: 'a',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066376041-W-QUIZ2_02.jpg',
 				},
 				{
-					key: 'elegant',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144270-what-kind-of-flirt-are-you_option-2.jpg',
+					key: 'b',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066376022-W-QUIZ2_03.jpg',
 				},
 				{
-					key: 'funOne',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144254-what-kind-of-flirt-are-you_option-3.jpg',
+					key: 'c',
+					image: '	https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066376001-W-QUIZ2_04.jpg',
 
 				},
 				{
-					key: 'girlyGirl',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393144238-what-kind-of-flirt-are-you_option-4.jpg',
+					key: 'd',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066375986-W-QUIZ2_05.jpg',
 
 				}
 			]
@@ -62,54 +62,26 @@ export default {
 
 		{
 			question: {
-				text: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153371-Your-favourite-holiday-destination_header.jpg',
+				text: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066567458-W-QUIZ3_01.jpg',
 				weight: 1
 			},
 			options: [
 				{
-					key: 'seductress',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153354-Your-favourite-holiday-destination_option-1.jpg',
+					key: 'a',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066567448-W-QUIZ3_02.jpg',
 				},
 				{
-					key: 'elegant',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153335-Your-favourite-holiday-destination_option-2.jpg',
+					key: 'b',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066567439-W-QUIZ3_03.jpg',
 				},
 				{
-					key: 'funOne',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153323-Your-favourite-holiday-destination_option-3.jpg',
+					key: 'c',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066567429-W-QUIZ3_04.jpg',
 
 				},
 				{
-					key: 'girlyGirl',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393153307-Your-favourite-holiday-destination_option-4.jpg',
-
-				}
-
-			]
-		},
-
-		{
-			question: {
-				text: "http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162990-which-lingerie-style-defines-you_header.jpg",
-				weight: 1
-			},
-			options: [
-				{
-					key: 'seductress',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162971-which-lingerie-style-defines-you_option-1.jpg',
-				},
-				{
-					key: 'elegant',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162954-which-lingerie-style-defines-you_option-2.jpg',
-				},
-				{
-					key: 'funOne',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162931-which-lingerie-style-defines-you_option-3.jpg',
-
-				},
-				{
-					key: 'girlyGirl',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393162912-which-lingerie-style-defines-you_option-4.jpg',
+					key: 'd',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066567420-W-QUIZ3_05.jpg',
 
 				}
 
@@ -118,26 +90,54 @@ export default {
 
 		{
 			question: {
-				text: "http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173820-whos-your-celeb-crush_header.jpg",
+				text: "https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066721608-W-QUIZ4_01.jpg",
 				weight: 1
 			},
 			options: [
 				{
-					key: 'seductress',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173808-whos-your-celeb-crush_option-1.jpg',
+					key: 'a',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066721593-W-QUIZ4_02.jpg',
 				},
 				{
-					key: 'elegant',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173795-whos-your-celeb-crush_option-2.jpg',
+					key: 'b',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066721584-W-QUIZ4_03.jpg',
 				},
 				{
-					key: 'funOne',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173783-whos-your-celeb-crush_option-3.jpg',
+					key: 'c',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066721573-W-QUIZ4_04.jpg',
 
 				},
 				{
-					key: 'girlyGirl',
-					image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512393173771-whos-your-celeb-crush_option-4.jpg',
+					key: 'd',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066721558-W-QUIZ4_05.jpg',
+
+				}
+
+			]
+		},
+
+		{
+			question: {
+				text: "https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066792988-W-QUIZ5_01.jpg",
+				weight: 1
+			},
+			options: [
+				{
+					key: 'a',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066792962-W-QUIZ5_02.jpg',
+				},
+				{
+					key: 'b',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066792941-W-QUIZ5_03.jpg',
+				},
+				{
+					key: 'c',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066792923-W-QUIZ5_04.jpg',
+
+				},
+				{
+					key: 'd',
+					image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066792897-W-QUIZ5_05.jpg',
 
 				}
 			]
@@ -146,23 +146,23 @@ export default {
 	],
 
 	results: {		
-		'seductress': {
-			image: 'http://assets.myntassets.com/assets/images/lookbook/2017/12/4/11512396447288-11512394705346-the-seductress.jpg',
+		'a': {
+			image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066059353-W-QUIZRESULT1.jpg',
 			text: '..',
 			link: 'https://www.myntra.com/'
 		},
-		'elegant': {
-			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705408-elegant-woman.jpg',
+		'b': {
+			image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066059341-W-QUIZRESULT2.jpg',
 			text: '..',
 			link: 'https://www.myntra.com/'
 		},
-		'funOne': {
-			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705386-the-fun-one.jpg',
+		'c': {
+			image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066059329-W-QUIZRESULT3.jpg',
 			text: '..',
 			link: 'https://www.myntra.com/'
 		},
-		'girlyGirl': {
-			image: 'http://assets.myntassets.com/assets/images/banners/2017/12/4/11512394705375-the-girlie-girl.jpg',
+		'd': {
+			image: 'https://assets.myntassets.com/assets/images/banners/2018/3/3/11520066059317-W-QUIZRESULT4.jpg',
 			text: '..',
 			link: 'https://www.myntra.com/'
 		}
